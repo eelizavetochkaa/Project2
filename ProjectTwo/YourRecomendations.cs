@@ -44,5 +44,13 @@ namespace ProjectTwo
             choose1Form.ShowDialog();
             this.Show();
         }
+
+        private void throwoff_Click(object sender, EventArgs e)
+        {
+            Choosing1 choose1Form = new Choosing1();
+            this.Hide();
+            choose1Form.ShowDialog();
+            this.Show();
+        }
     }
 }

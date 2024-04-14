@@ -20,7 +20,6 @@ namespace ProjectTwo
 
         private void YourCollections_Load(object sender, EventArgs e)
         {
-
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
         }
@@ -30,6 +29,14 @@ namespace ProjectTwo
             Choosing1 choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
+            this.Show();
+        }
+
+        private void add2_Click(object sender, EventArgs e)
+        {
+            AddCollections addcolls = new AddCollections();
+            this.Hide();
+            addcolls.ShowDialog();
             this.Show();
         }
     }

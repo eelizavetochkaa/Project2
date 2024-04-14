@@ -79,6 +79,7 @@
             throwoff.TabIndex = 3;
             throwoff.Text = "Сбросить предпочтения";
             throwoff.UseVisualStyleBackColor = false;
+            throwoff.Click += throwoff_Click;
             // 
             // add
             // 

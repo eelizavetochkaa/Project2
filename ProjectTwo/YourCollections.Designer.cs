@@ -58,6 +58,7 @@
             add2.TabIndex = 10;
             add2.Text = "Создать подборку";
             add2.UseVisualStyleBackColor = false;
+            add2.Click += add2_Click;
             // 
             // favs
             // 

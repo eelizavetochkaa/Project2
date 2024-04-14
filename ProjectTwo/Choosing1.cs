@@ -24,5 +24,10 @@ namespace Project2
             dislike.FlatStyle = FlatStyle.Flat;
             dislike.FlatAppearance.BorderSize = 0;
         }
+
+        private void photo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

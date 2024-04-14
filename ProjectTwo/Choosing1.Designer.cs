@@ -145,11 +145,12 @@
             // photo
             // 
             photo.BackColor = Color.FromArgb(136, 92, 64);
-            photo.Location = new Point(949, 144);
+            photo.Location = new Point(940, 144);
             photo.Name = "photo";
             photo.Size = new Size(437, 224);
             photo.TabIndex = 8;
             photo.TabStop = false;
+            photo.Click += photo_Click;
             // 
             // description2
             // 

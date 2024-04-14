@@ -40,6 +40,7 @@
             photo = new PictureBox();
             description2 = new Label();
             addtofav = new CheckBox();
+            back = new Button();
             ((System.ComponentModel.ISupportInitialize)list).BeginInit();
             ((System.ComponentModel.ISupportInitialize)photo).BeginInit();
             SuspendLayout();
@@ -78,6 +79,7 @@
             show.TabIndex = 2;
             show.Text = "Показать рекомендации";
             show.UseVisualStyleBackColor = false;
+            show.Click += show_Click;
             // 
             // yours
             // 
@@ -90,6 +92,7 @@
             yours.TabIndex = 3;
             yours.Text = "Ваши подборки";
             yours.UseVisualStyleBackColor = false;
+            yours.Click += yours_Click;
             // 
             // like
             // 
@@ -179,6 +182,19 @@
             addtofav.Text = "Добавить в избранное";
             addtofav.UseVisualStyleBackColor = false;
             // 
+            // back
+            // 
+            back.BackColor = Color.Transparent;
+            back.Font = new Font("Segoe UI Black", 25.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            back.ForeColor = Color.NavajoWhite;
+            back.Location = new Point(2, 2);
+            back.Name = "back";
+            back.Size = new Size(62, 78);
+            back.TabIndex = 11;
+            back.Text = "⇐";
+            back.UseVisualStyleBackColor = false;
+            back.Click += back_Click;
+            // 
             // Choosing1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -186,6 +202,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1443, 750);
+            Controls.Add(back);
             Controls.Add(addtofav);
             Controls.Add(description2);
             Controls.Add(photo);
@@ -220,5 +237,6 @@
         private PictureBox photo;
         private Label description2;
         private CheckBox addtofav;
+        private Button back;
     }
 }

@@ -5,25 +5,27 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 
-namespace DZ
+namespace ProjectTwo
 {
-    public partial class Cafe : Form
+    public partial class YourCollections : Form
     {
-
-        public Cafe()
+        public YourCollections()
         {
             InitializeComponent();
-
         }
 
-        private void start_Click(object sender, EventArgs e)
+        private void YourCollections_Load(object sender, EventArgs e)
+        {
+
+            back.FlatStyle = FlatStyle.Flat;
+            back.FlatAppearance.BorderSize = 0;
+        }
+
+        private void back_Click(object sender, EventArgs e)
         {
             Choosing1 choose1Form = new Choosing1();
             this.Hide();
@@ -31,5 +33,4 @@ namespace DZ
             this.Show();
         }
     }
-
 }

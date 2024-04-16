@@ -24,9 +24,7 @@
     <Compile Update="Cafe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Choosing1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="Choosing1.cs" />
     <Compile Update="ChoosingCollection.cs">
       <SubType>Form</SubType>
     </Compile>

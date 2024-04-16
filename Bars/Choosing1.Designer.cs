@@ -79,6 +79,7 @@
             show.TabIndex = 2;
             show.Text = "Показать рекомендации";
             show.UseVisualStyleBackColor = false;
+            show.Click += show_Click_1;
             // 
             // yours
             // 
@@ -91,6 +92,7 @@
             yours.TabIndex = 3;
             yours.Text = "Ваши подборки";
             yours.UseVisualStyleBackColor = false;
+            yours.Click += yours_Click_1;
             // 
             // like
             // 
@@ -192,6 +194,7 @@
             back.TabIndex = 11;
             back.Text = "⇐";
             back.UseVisualStyleBackColor = false;
+            back.Click += back_Click_1;
             // 
             // Choosing1
             // 

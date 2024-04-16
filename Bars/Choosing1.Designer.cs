@@ -167,7 +167,7 @@
             description2.Size = new Size(181, 46);
             description2.TabIndex = 9;
             description2.Text = "Описание";
-            description2.TextAlign = ContentAlignment.MiddleCenter;
+            description2.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // addtofav
             // 

@@ -40,7 +40,8 @@ namespace Project2
                 {
                     connection.Open();
 
-                    string query = "SELECT * FROM bars";
+                    // Измененный SQL-запрос для фильтрации по столбцу type
+                    string query = "SELECT * FROM bars WHERE type = 'для выбора'";
 
                     using (SQLiteCommand command = new SQLiteCommand(query, connection))
                     {

@@ -1,4 +1,5 @@
-﻿using DZ;
+﻿using Bars;
+using DZ;
 using ProjectTwo;
 using System;
 using System.Collections.Generic;
@@ -32,26 +33,12 @@ namespace Project2
         //работа с БД
         private void LoadDataFromDatabase()
         {
-            string connectionString = "Data Source=D:\\ProjectTwo2\\Bars\\Cafes.db;Version=3;";
-
-            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            using (var context = new BarsContext())
             {
                 try
                 {
-                    connection.Open();
-
-                    // Измененный SQL-запрос для фильтрации по столбцу type
-                    string query = "SELECT * FROM bars WHERE type = 'для выбора'";
-
-                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
-                    {
-                        using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
-                        {
-                            DataTable dataTable = new DataTable();
-                            adapter.Fill(dataTable);
-                            list.DataSource = dataTable;
-                        }
-                    }
+                    var bars = context.Bars.Where(b => b.Type == "для выбора").ToList();
+                    list.DataSource = bars;
                 }
                 catch (Exception ex)
                 {

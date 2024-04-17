@@ -22,6 +22,7 @@ public partial class Bar
     public string? Location { get; set; }
 
     public string? Cuisine { get; set; }
+    public string? Type { get; set; }
 
     public virtual Matching? MatchingNavigation { get; set; }
 }

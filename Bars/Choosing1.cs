@@ -33,7 +33,7 @@ namespace Project2
         //работа с БД
         private void LoadDataFromDatabase()
         {
-            using (var context = new BarsContext())
+            using (var context = new CafesContext())
             {
                 try
                 {

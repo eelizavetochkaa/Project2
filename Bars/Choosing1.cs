@@ -105,33 +105,32 @@ namespace Project2
 
         private void UpdateMark(int restaurantId, int voteOption)
         {
-            using (SQLiteConnection connection = new SQLiteConnection("Data Source=D:\\ProjectTwo2\\Bars\\Cafes.db;Version=3;"))
+            using (var context = new CafesContext())
             {
-                connection.Open();
-                using (SQLiteCommand command = new SQLiteCommand(connection))
+                var bar = context.Bars.FirstOrDefault(b => b.Id == restaurantId);
+                if (bar != null)
                 {
-                    command.CommandText = "UPDATE bars SET Mark = @Mark WHERE Id = @Id";
-                    command.Parameters.Add("@Mark", DbType.Int32).Value = voteOption;
-                    command.Parameters.Add("@Id", DbType.Int32).Value = restaurantId;
-                    int rowsAffected = command.ExecuteNonQuery();
-                    if (rowsAffected > 0 && voteOption==2)
+                    bar.Mark = voteOption;
+                    context.SaveChanges();
+
+                    if (voteOption == 2)
                     {
                         MessageBox.Show("Вы поставили 👎 этой позиции");
                     }
-                    else if(rowsAffected > 0 && voteOption==1)
+                    else if (voteOption == 1)
                     {
                         MessageBox.Show("Вы поставили 👍 этой позиции");
                     }
-                    else
-                    {
-                        MessageBox.Show("Ошибка при обновлении значения в столбце Mark.");
-                    }
                 }
-                connection.Close();
+                else
+                {
+                    MessageBox.Show("Ошибка: не найдена запись с указанным ID.");
+                }
             }
+
         }
 
-        
+
 
         private void Choosing1_Load_1(object sender, EventArgs e)
         {

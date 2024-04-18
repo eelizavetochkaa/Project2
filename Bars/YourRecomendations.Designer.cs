@@ -57,6 +57,7 @@
             spisok.TabIndex = 1;
             spisok.Text = "Список рекомендаций";
             spisok.TextAlign = ContentAlignment.MiddleCenter;
+            spisok.Click += spisok_Click;
             // 
             // list2
             // 
@@ -142,6 +143,7 @@
             mark.Size = new Size(437, 46);
             mark.TabIndex = 11;
             mark.Text = "Оценкаㅤㅤㅤㅤㅤㅤㅤㅤㅤ";
+            mark.Click += mark_Click;
             // 
             // dislike
             // 
@@ -180,6 +182,7 @@
             addtofav.TabIndex = 14;
             addtofav.Text = "Добавить в избранное";
             addtofav.UseVisualStyleBackColor = false;
+            addtofav.CheckedChanged += addtofav_CheckedChanged;
             // 
             // back
             // 

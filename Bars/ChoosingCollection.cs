@@ -32,5 +32,10 @@ namespace ProjectTwo
             recs.ShowDialog();
             this.Show();
         }
+
+        private void favs_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

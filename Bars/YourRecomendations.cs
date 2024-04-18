@@ -10,14 +10,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace ProjectTwo
 {
+
     public partial class YourRecomendations : Form
     {
+        private CafesContext dbContext;
+        private string _lastClickedValue;
+        private int _clickCount;
         public YourRecomendations()
         {
             InitializeComponent();
+            dbContext = new CafesContext();
+
         }
 
         private void LoadDataFromDatabase()
@@ -134,5 +141,38 @@ namespace ProjectTwo
             this.Show();
         }
 
+        private void spisok_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void list2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void mark_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void addtofav_CheckedChanged(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+                if (addtofav.Checked && list2.SelectedRows.Count > 0)
+                {
+                    var selectedRow = list2.SelectedRows[0];
+                    var bar = (Bar)selectedRow.DataBoundItem;
+                    bar.Matching = 1;
+                    context.SaveChanges();
+                    MessageBox.Show("success");
+                }
+                else
+                {
+                    MessageBox.Show("Not succesful");
+                }
+            }
+        }
     }
 }

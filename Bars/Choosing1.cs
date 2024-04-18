@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Project2
 {
@@ -30,6 +31,7 @@ namespace Project2
             dislike.Click += dislike_Click;
             list.CellMouseDoubleClick += list_CellMouseDoubleClick;
         }
+
         //работа с БД
         private void LoadDataFromDatabase()
         {
@@ -164,6 +166,25 @@ namespace Project2
             this.Hide();
             colls.ShowDialog();
             this.Show();
+        }
+
+        private void addtofav_CheckedChanged(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+                if (addtofav.Checked && list.SelectedRows.Count > 0)
+                {
+                    var selectedRow = list.SelectedRows[0];
+                    var bar = (Bar)selectedRow.DataBoundItem; 
+                    bar.Matching = 1;
+                    context.SaveChanges();
+                    MessageBox.Show("success");
+                }
+                else
+                {
+                    MessageBox.Show("Not succesful");
+                }
+            }
         }
     }
 }

@@ -182,6 +182,7 @@
             addtofav.TabIndex = 10;
             addtofav.Text = "Добавить в избранное";
             addtofav.UseVisualStyleBackColor = false;
+            addtofav.CheckedChanged += addtofav_CheckedChanged;
             // 
             // back
             // 

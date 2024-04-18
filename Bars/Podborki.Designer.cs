@@ -40,7 +40,7 @@
             add = new Button();
             throwoff = new Button();
             list2 = new DataGridView();
-            spisok = new Label();
+            podborka = new Label();
             ((System.ComponentModel.ISupportInitialize)photo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)list2).BeginInit();
             SuspendLayout();
@@ -178,19 +178,18 @@
             list2.Size = new Size(528, 507);
             list2.TabIndex = 17;
             // 
-            // spisok
+            // podborka
             // 
-            spisok.AutoSize = true;
-            spisok.BackColor = Color.NavajoWhite;
-            spisok.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            spisok.ForeColor = Color.FromArgb(136, 92, 64);
-            spisok.Location = new Point(239, 60);
-            spisok.Name = "spisok";
-            spisok.Size = new Size(385, 46);
-            spisok.TabIndex = 16;
-            spisok.Text = "Список рекомендаций";
-            spisok.TextAlign = ContentAlignment.MiddleCenter;
-            spisok.Click += spisok_Click;
+            podborka.AutoSize = true;
+            podborka.BackColor = Color.NavajoWhite;
+            podborka.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            podborka.ForeColor = Color.FromArgb(136, 92, 64);
+            podborka.Location = new Point(353, 72);
+            podborka.Name = "podborka";
+            podborka.Size = new Size(106, 46);
+            podborka.TabIndex = 28;
+            podborka.Text = "label1";
+            podborka.Click += podborka_Click;
             // 
             // Podborki
             // 
@@ -199,6 +198,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1443, 750);
+            Controls.Add(podborka);
             Controls.Add(back);
             Controls.Add(addtofav);
             Controls.Add(like);
@@ -210,7 +210,6 @@
             Controls.Add(add);
             Controls.Add(throwoff);
             Controls.Add(list2);
-            Controls.Add(spisok);
             Name = "Podborki";
             Text = "Подборки";
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();
@@ -232,6 +231,6 @@
         private Button add;
         private Button throwoff;
         private DataGridView list2;
-        private Label spisok;
+        public Label podborka;
     }
 }

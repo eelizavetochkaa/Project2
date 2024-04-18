@@ -21,5 +21,10 @@ namespace Bars
         {
 
         }
+
+        private void podborka_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

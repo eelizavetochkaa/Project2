@@ -1,4 +1,5 @@
-﻿using Project2;
+﻿using Bars;
+using Project2;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,8 +12,11 @@ using System.Windows.Forms;
 
 namespace ProjectTwo
 {
+    
     public partial class YourCollections : Form
     {
+      
+
         public YourCollections()
         {
             InitializeComponent();
@@ -39,5 +43,16 @@ namespace ProjectTwo
             addcolls.ShowDialog();
             this.Show();
         }
+
+
+        private void favs_Click(object sender, EventArgs e)
+        {
+            Podborki podborkiForm = new Podborki();
+            this.Hide();
+            podborkiForm.podborka.Text = "Избранное";
+            podborkiForm.ShowDialog();
+            this.Show();
+        }
+
     }
 }

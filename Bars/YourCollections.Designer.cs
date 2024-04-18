@@ -71,6 +71,7 @@
             favs.TabIndex = 11;
             favs.Text = "Избранное";
             favs.UseVisualStyleBackColor = false;
+            favs.Click += favs_Click;
             // 
             // back
             // 

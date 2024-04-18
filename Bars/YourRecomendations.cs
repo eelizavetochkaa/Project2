@@ -18,12 +18,12 @@ namespace ProjectTwo
     public partial class YourRecomendations : Form
     {
         private CafesContext dbContext;
-        private string _lastClickedValue;
-        private int _clickCount;
+        public int restaurantId2;
         public YourRecomendations()
         {
             InitializeComponent();
             dbContext = new CafesContext();
+            list2.CellMouseDoubleClick += list2_CellMouseDoubleClick;
 
         }
 
@@ -135,10 +135,20 @@ namespace ProjectTwo
 
         private void throwoff_Click(object sender, EventArgs e)
         {
+            var items = dbContext.Bars.ToList();
+            foreach (var item in items)
+            {
+                item.Mark = null;
+            }
+
+            dbContext.SaveChanges();
+
+            MessageBox.Show("Ваши предпочтения сброшены");
             Choosing1 choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
             this.Show();
+
         }
 
         private void spisok_Click(object sender, EventArgs e)
@@ -166,12 +176,31 @@ namespace ProjectTwo
                     var bar = (Bar)selectedRow.DataBoundItem;
                     bar.Matching = 1;
                     context.SaveChanges();
-                    MessageBox.Show("success");
+                    MessageBox.Show("Добавлено в избранное");
                 }
                 else
                 {
-                    MessageBox.Show("Not succesful");
+                    MessageBox.Show("Не получилось доавбить в избранное. Проверьте, что точно дважды кликнули по строке из таблицы");
                 }
+            }
+        }
+        private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                int columnIndex1 = 1;
+                int columnIndex2 = 2;
+                int columnIndex4 = 4;
+                int columnIndex5 = 5;
+                restaurantId2 = Convert.ToInt32(list2.Rows[e.RowIndex].Cells[0].Value);
+
+                string column1 = list2.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
+                string column2 = list2.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
+                string column4 = list2.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
+                string column5 = list2.Rows[e.RowIndex].Cells[columnIndex5].Value?.ToString();
+
+                name.Text = column1;
+                description2.Text = column2;
             }
         }
     }

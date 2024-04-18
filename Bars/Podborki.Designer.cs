@@ -56,6 +56,7 @@
             back.TabIndex = 27;
             back.Text = "⇐";
             back.UseVisualStyleBackColor = false;
+            back.Click += back_Click;
             // 
             // addtofav
             // 
@@ -189,7 +190,6 @@
             podborka.Size = new Size(106, 46);
             podborka.TabIndex = 28;
             podborka.Text = "label1";
-            podborka.Click += podborka_Click;
             // 
             // Podborki
             // 

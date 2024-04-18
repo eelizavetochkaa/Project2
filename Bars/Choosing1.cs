@@ -63,12 +63,14 @@ namespace Project2
         {
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
+                int columnIndex0 = 0;
                 int columnIndex1 = 1;
                 int columnIndex2 = 2;
                 int columnIndex4 = 4;
                 int columnIndex5 = 5;
                 restaurantId = Convert.ToInt32(list.Rows[e.RowIndex].Cells[0].Value);
 
+                string column0 = list.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
                 string column1 = list.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
                 string column2 = list.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
                 string column4 = list.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
@@ -76,6 +78,24 @@ namespace Project2
 
                 name.Text = column1;
                 description2.Text = column2;
+                using (var context = new CafesContext())
+                {
+                    var entity = context.Bars.Find(restaurantId);
+
+                    if (entity != null && entity.Photo != null)
+                    {
+                        using (MemoryStream ms = new MemoryStream(entity.Photo))
+                        {
+                            Image image = Image.FromStream(ms);
+                            photo.Image = image;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Изображение не найдено или недоступно.");
+                    }
+                }
+
             }
         }
 
@@ -175,16 +195,37 @@ namespace Project2
                 if (addtofav.Checked && list.SelectedRows.Count > 0)
                 {
                     var selectedRow = list.SelectedRows[0];
-                    var bar = (Bar)selectedRow.DataBoundItem; 
+                    var bar = (Bar)selectedRow.DataBoundItem;
                     bar.Matching = 1;
                     context.SaveChanges();
-                    MessageBox.Show("success");
+                    MessageBox.Show("Добавлено в избранное");
                 }
                 else
                 {
-                    MessageBox.Show("Not succesful");
+                    MessageBox.Show("Не получилось доавбить в избранное. Проверьте, что точно дважды кликнули по строке из таблицы");
                 }
             }
         }
+        private void DisplayImageFromDatabase()
+        {
+            using (var context = new CafesContext())
+            {
+                var entity = context.Bars.Find(1); 
+
+                if (entity != null && entity.Photo != null)
+                {
+                    using (MemoryStream ms = new MemoryStream(entity.Photo))
+                    {
+                        Image image = Image.FromStream(ms);
+                        photo.Image = image;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Изображение не найдено или недоступно.");
+                }
+            }
+        }
+
     }
 }

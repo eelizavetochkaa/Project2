@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,14 +18,12 @@ namespace Bars
             InitializeComponent();
         }
 
-        private void spisok_Click(object sender, EventArgs e)
+        private void back_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void podborka_Click(object sender, EventArgs e)
-        {
-
+            Choosing1 choose1Form = new Choosing1();
+            this.Hide();
+            choose1Form.ShowDialog();
+            this.Show();
         }
     }
 }

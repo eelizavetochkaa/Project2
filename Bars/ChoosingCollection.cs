@@ -1,4 +1,5 @@
-﻿using DZ;
+﻿using Bars;
+using DZ;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,7 +36,11 @@ namespace ProjectTwo
 
         private void favs_Click(object sender, EventArgs e)
         {
-
+            Podborki podborkiForm = new Podborki();
+            this.Hide();
+            podborkiForm.podborka.Text = "Избранное";
+            podborkiForm.ShowDialog();
+            this.Show();
         }
     }
 }

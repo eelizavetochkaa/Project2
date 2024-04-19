@@ -207,27 +207,6 @@ namespace Project2
                 }
             }
         }
-        private void DisplayImageFromDatabase()
-        {
-            using (var context = new CafesContext())
-            {
-                var entity = context.Bars.Find(1);
-
-                if (entity != null && entity.Photo != null)
-                {
-                    using (MemoryStream ms = new MemoryStream(entity.Photo))
-                    {
-                        Image image = Image.FromStream(ms);
-
-                        photo.Image = image;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Изображение не найдено или недоступно.");
-                }
-            }
-        }
 
         private void photo_Click(object sender, EventArgs e)
         {

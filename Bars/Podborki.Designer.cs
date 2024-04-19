@@ -213,6 +213,7 @@
             Controls.Add(list2);
             Name = "Podborki";
             Text = "Подборки";
+            Load += Podborki_Load;
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();
             ((System.ComponentModel.ISupportInitialize)list2).EndInit();
             ResumeLayout(false);

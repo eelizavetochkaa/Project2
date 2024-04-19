@@ -58,6 +58,7 @@ namespace ProjectTwo
                         if (roofBar != null)
                         {
                             barsToDisplay.Add(roofBar);
+
                         }
                     }
                     if (moremore != null)
@@ -201,7 +202,25 @@ namespace ProjectTwo
 
                 name.Text = column1;
                 description2.Text = column2;
+                using (var context = new CafesContext())
+                {
+                    var entity = context.Bars.Find(restaurantId2);
+
+                    if (entity != null && entity.Photo != null)
+                    {
+                        using (MemoryStream ms = new MemoryStream(entity.Photo))
+                        {
+                            Image image = Image.FromStream(ms);
+                            photo.Image = image;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Изображение не найдено или недоступно.");
+                    }
+                }
             }
         }
+        
     }
 }

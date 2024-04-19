@@ -178,6 +178,7 @@
             list2.RowHeadersWidth = 51;
             list2.Size = new Size(528, 507);
             list2.TabIndex = 17;
+            list2.CellContentClick += list2_CellContentClick;
             // 
             // podborka
             // 

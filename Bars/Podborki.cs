@@ -16,6 +16,7 @@ namespace Bars
         public Podborki()
         {
             InitializeComponent();
+            LoadDataFromDatabase();
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -24,6 +25,27 @@ namespace Bars
             this.Hide();
             choose1Form.ShowDialog();
             this.Show();
+        }
+
+        private void LoadDataFromDatabase()
+        {
+            using (var context = new CafesContext())
+            {
+                try
+                {
+                    var bars = context.Bars.Where(b => b.Matching == 1).ToList();
+                    list2.DataSource = bars;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
+                }
+            }
+        }
+
+        private void list2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

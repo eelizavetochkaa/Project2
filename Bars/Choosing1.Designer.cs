@@ -150,24 +150,27 @@
             // photo
             // 
             photo.BackColor = Color.FromArgb(136, 92, 64);
+            photo.BackgroundImageLayout = ImageLayout.Stretch;
             photo.Location = new Point(940, 144);
             photo.Name = "photo";
             photo.Size = new Size(437, 224);
+            photo.SizeMode = PictureBoxSizeMode.Zoom;
             photo.TabIndex = 8;
             photo.TabStop = false;
+            photo.Click += photo_Click;
             // 
             // description2
             // 
-            description2.AutoSize = true;
+            description2.AutoEllipsis = true;
             description2.BackColor = Color.NavajoWhite;
             description2.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             description2.ForeColor = Color.FromArgb(136, 92, 64);
-            description2.Location = new Point(1060, 419);
+            description2.Location = new Point(940, 371);
             description2.Name = "description2";
-            description2.Size = new Size(181, 46);
+            description2.Size = new Size(437, 231);
             description2.TabIndex = 9;
             description2.Text = "Описание";
-            description2.TextAlign = ContentAlignment.MiddleLeft;
+            description2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // addtofav
             // 

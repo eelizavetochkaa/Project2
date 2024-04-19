@@ -113,18 +113,18 @@
             photo.Location = new Point(900, 109);
             photo.Name = "photo";
             photo.Size = new Size(437, 224);
+            photo.SizeMode = PictureBoxSizeMode.Zoom;
             photo.TabIndex = 9;
             photo.TabStop = false;
             // 
             // description2
             // 
-            description2.AutoSize = true;
             description2.BackColor = Color.NavajoWhite;
             description2.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             description2.ForeColor = Color.FromArgb(136, 92, 64);
-            description2.Location = new Point(1017, 393);
+            description2.Location = new Point(900, 336);
             description2.Name = "description2";
-            description2.Size = new Size(181, 46);
+            description2.Size = new Size(437, 231);
             description2.TabIndex = 10;
             description2.Text = "Описание";
             description2.TextAlign = ContentAlignment.MiddleCenter;

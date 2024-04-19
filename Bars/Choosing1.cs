@@ -162,6 +162,7 @@ namespace Project2
             dislike.FlatAppearance.BorderSize = 0;
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+            description2.AutoEllipsis = true;
         }
 
         private void back_Click_1(object sender, EventArgs e)
@@ -210,13 +211,14 @@ namespace Project2
         {
             using (var context = new CafesContext())
             {
-                var entity = context.Bars.Find(1); 
+                var entity = context.Bars.Find(1);
 
                 if (entity != null && entity.Photo != null)
                 {
                     using (MemoryStream ms = new MemoryStream(entity.Photo))
                     {
                         Image image = Image.FromStream(ms);
+
                         photo.Image = image;
                     }
                 }
@@ -227,5 +229,9 @@ namespace Project2
             }
         }
 
+        private void photo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

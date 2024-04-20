@@ -50,6 +50,7 @@ namespace ProjectTwo
             
             using (var context = new CafesContext())
             {
+
                 var favs = context.Bars.Where(entity => entity.Matching == 1).ToList();
                 Podborki podborkiForm = new Podborki();
                 this.Hide();

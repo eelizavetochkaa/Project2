@@ -218,7 +218,6 @@
             Controls.Add(spisok);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "YourRecomendations";
-            Text = "YourRecomendations";
             Load += YourRecomendations_Load;
             ((System.ComponentModel.ISupportInitialize)list2).EndInit();
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();

@@ -83,7 +83,7 @@
             Controls.Add(welcome);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Cafe";
-            Text = "Кафе и рестораны ";
+            Load += Cafe_Load;
             ResumeLayout(false);
             PerformLayout();
         }

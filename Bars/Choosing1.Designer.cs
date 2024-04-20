@@ -221,7 +221,6 @@
             Controls.Add(mark);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Choosing1";
-            Text = "Choosing1";
             Load += Choosing1_Load_1;
             ((System.ComponentModel.ISupportInitialize)list).EndInit();
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();

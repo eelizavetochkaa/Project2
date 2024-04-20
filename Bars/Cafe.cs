@@ -29,6 +29,12 @@ namespace DZ
             this.Hide();
             choose1Form.ShowDialog();
             this.Show();
+
+        }
+
+        private void Cafe_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

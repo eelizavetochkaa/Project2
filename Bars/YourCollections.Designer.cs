@@ -99,7 +99,6 @@
             Controls.Add(collections);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "YourCollections";
-            Text = "YourCollections";
             Load += YourCollections_Load;
             ResumeLayout(false);
             PerformLayout();

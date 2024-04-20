@@ -123,7 +123,6 @@
             Controls.Add(name);
             Controls.Add(list3);
             Name = "Podborki";
-            Text = "Подборки";
             Load += Podborki_Load;
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();
             ((System.ComponentModel.ISupportInitialize)list3).EndInit();

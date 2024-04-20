@@ -96,7 +96,6 @@
             Controls.Add(back);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "AddCollections";
-            Text = "AddCollections";
             Load += AddCollections_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -100,7 +100,6 @@
             Controls.Add(choose2);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "ChoosingCollection";
-            Text = "ChoosingCollection";
             Load += ChoosingCollection_Load;
             ResumeLayout(false);
             PerformLayout();

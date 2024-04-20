@@ -102,6 +102,7 @@
             five.Size = new Size(194, 52);
             five.TabIndex = 21;
             five.UseVisualStyleBackColor = false;
+            five.Click += five_Click;
             // 
             // four
             // 
@@ -113,6 +114,7 @@
             four.Size = new Size(194, 52);
             four.TabIndex = 20;
             four.UseVisualStyleBackColor = false;
+            four.Click += four_Click;
             // 
             // three
             // 
@@ -124,6 +126,7 @@
             three.Size = new Size(194, 52);
             three.TabIndex = 19;
             three.UseVisualStyleBackColor = false;
+            three.Click += three_Click;
             // 
             // two
             // 
@@ -147,6 +150,7 @@
             six.Size = new Size(194, 52);
             six.TabIndex = 22;
             six.UseVisualStyleBackColor = false;
+            six.Click += six_Click;
             // 
             // delete
             // 

@@ -109,10 +109,22 @@ namespace ProjectTwo
         }
         private void add_Click(object sender, EventArgs e)
         {
-            ChoosingCollection choosing = new ChoosingCollection();
-            this.Hide();
-            choosing.ShowDialog();
-            this.Show();
+            if (list2.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = list2.SelectedRows[0];
+                using (var choosing = new ChoosingCollection())
+                {
+                    choosing.SelectedRow = selectedRow;
+                    this.Hide();
+                    choosing.ShowDialog();
+                    this.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, выберите строку в DataGridView.");
+            }
+            
         }
 
         private void YourRecomendations_Load(object sender, EventArgs e)

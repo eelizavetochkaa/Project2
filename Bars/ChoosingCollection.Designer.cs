@@ -102,6 +102,7 @@
             two1.Size = new Size(194, 52);
             two1.TabIndex = 14;
             two1.UseVisualStyleBackColor = false;
+            two1.Click += two1_Click;
             // 
             // three1
             // 
@@ -113,6 +114,7 @@
             three1.Size = new Size(194, 52);
             three1.TabIndex = 15;
             three1.UseVisualStyleBackColor = false;
+            three1.Click += three1_Click;
             // 
             // four1
             // 
@@ -124,6 +126,7 @@
             four1.Size = new Size(194, 52);
             four1.TabIndex = 16;
             four1.UseVisualStyleBackColor = false;
+            four1.Click += four1_Click;
             // 
             // five1
             // 
@@ -147,6 +150,7 @@
             six1.Size = new Size(194, 52);
             six1.TabIndex = 18;
             six1.UseVisualStyleBackColor = false;
+            six1.Click += six1_Click;
             // 
             // ChoosingCollection
             // 

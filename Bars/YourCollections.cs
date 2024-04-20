@@ -133,5 +133,69 @@ namespace ProjectTwo
 
             }
         }
+
+        private void three_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+
+                var two3 = context.Bars.Where(entity => entity.Matching == 3).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = three.Text;
+                podborkiForm.list3.DataSource = two3;
+                podborkiForm.ShowDialog();
+                this.Show();
+
+            }
+        }
+
+        private void four_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+
+                var two4 = context.Bars.Where(entity => entity.Matching == 4).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = four.Text;
+                podborkiForm.list3.DataSource = two4;
+                podborkiForm.ShowDialog();
+                this.Show();
+
+            }
+        }
+
+        private void five_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+
+                var two5 = context.Bars.Where(entity => entity.Matching == 5).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = five.Text;
+                podborkiForm.list3.DataSource = two5;
+                podborkiForm.ShowDialog();
+                this.Show();
+
+            }
+        }
+
+        private void six_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+
+                var two6 = context.Bars.Where(entity => entity.Matching == 6).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = six.Text;
+                podborkiForm.list3.DataSource = two6;
+                podborkiForm.ShowDialog();
+                this.Show();
+
+            }
+        }
     }
 }

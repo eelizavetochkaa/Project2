@@ -1,6 +1,7 @@
 ﻿using Bars;
 using DZ;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProjectTwo
 {
     public partial class ChoosingCollection : Form
     {
+        public DataGridViewRow SelectedRow { get; set; }
         public ChoosingCollection()
         {
             InitializeComponent();
@@ -45,10 +48,7 @@ namespace ProjectTwo
             this.Show();
         }
 
-        private void five_Click(object sender, EventArgs e)
-        {
-
-        }
+        
         private void UpdateButtonText()
         {
             using (var context = new CafesContext())
@@ -100,5 +100,100 @@ namespace ProjectTwo
                 }
             }
         }
+
+        private void two1_Click(object sender, EventArgs e)
+        {
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 2;
+
+                using (var context = new CafesContext())
+                {
+                    var entity = (Bar)SelectedRow.DataBoundItem;
+                    entity.Matching = 2;
+                    context.SaveChanges();
+                    MessageBox.Show("Добавлено");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
+        }
+
+        private void three1_Click(object sender, EventArgs e)
+        {
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 3;
+
+                using (var context = new CafesContext())
+                {
+                    var entity = (Bar)SelectedRow.DataBoundItem;
+                    entity.Matching = 3;
+                    context.SaveChanges();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
+        }
+
+        private void four1_Click(object sender, EventArgs e)
+        {
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 4;
+
+                using (var context = new CafesContext())
+                {
+                    var entity = (Bar)SelectedRow.DataBoundItem;
+                    entity.Matching = 4;
+                    context.SaveChanges();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
+        }
+        private void five_Click(object sender, EventArgs e)
+        {
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 5;
+
+                using (var context = new CafesContext())
+                {
+                    var entity = (Bar)SelectedRow.DataBoundItem;
+                    entity.Matching = 5;
+                    context.SaveChanges();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
+        }
+        private void six1_Click(object sender, EventArgs e)
+        {
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 6;
+
+                using (var context = new CafesContext())
+                {
+                    var entity = (Bar)SelectedRow.DataBoundItem;
+                    entity.Matching = 6;
+                    context.SaveChanges();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
+        }
+        
     }
 }

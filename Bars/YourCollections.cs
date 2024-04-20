@@ -47,11 +47,17 @@ namespace ProjectTwo
 
         private void favs_Click(object sender, EventArgs e)
         {
-            Podborki podborkiForm = new Podborki();
-            this.Hide();
-            podborkiForm.podborka.Text = "Избранное";
-            podborkiForm.ShowDialog();
-            this.Show();
+            
+            using (var context = new CafesContext())
+            {
+                var favs = context.Bars.Where(entity => entity.Matching == 1).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = "Избранное";
+                podborkiForm.list3.DataSource = favs;
+                podborkiForm.ShowDialog();
+                this.Show();
+            }
         }
 
     }

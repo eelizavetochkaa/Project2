@@ -18,7 +18,7 @@ namespace Bars
         {
             InitializeComponent();
             LoadDataFromDatabase();
-            list2.CellMouseDoubleClick += list2_CellMouseDoubleClick;
+            list3.CellMouseDoubleClick += list2_CellMouseDoubleClick;
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace Bars
                 try
                 {
                     var bars = context.Bars.Where(b => b.Matching == 1).ToList();
-                    list2.DataSource = bars;
+                    list3.DataSource = bars;
                 }
                 catch (Exception ex)
                 {
@@ -56,20 +56,21 @@ namespace Bars
         }
         private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0 )
             {
                 int columnIndex0 = 0;
                 int columnIndex1 = 1;
                 int columnIndex2 = 2;
                 int columnIndex4 = 4;
                 int columnIndex5 = 5;
-                restaurantId = Convert.ToInt32(list2.Rows[e.RowIndex].Cells[0].Value);
+                restaurantId = Convert.ToInt32(list3.Rows[e.RowIndex].Cells[0].Value);
 
-                string column0 = list2.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
-                string column1 = list2.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
-                string column2 = list2.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
-                string column4 = list2.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
-                string column5 = list2.Rows[e.RowIndex].Cells[columnIndex5].Value?.ToString();
+                string column0 = list3.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
+                string column1 = list3.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
+                string column2 = list3.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
+                string column4 = list3.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
+                string column5 = list3.Rows[e.RowIndex].Cells[columnIndex5].Value?.ToString();
 
                 name.Text = column1;
                 description2.Text = column2;

@@ -12,6 +12,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -197,13 +198,20 @@ namespace Project2
                 {
                     var selectedRow = list.SelectedRows[0];
                     var bar = (Bar)selectedRow.DataBoundItem;
+
+                    if (context.Entry(bar).State == EntityState.Detached)
+                    {
+                        context.Bars.Attach(bar);
+                    }
                     bar.Matching = 1;
+
                     context.SaveChanges();
+
                     MessageBox.Show("Добавлено в избранное");
                 }
                 else
                 {
-                    MessageBox.Show("Не получилось доавбить в избранное. Проверьте, что точно дважды кликнули по строке из таблицы");
+                    MessageBox.Show("Не получилось добавить в избранное. Проверьте, что вы точно дважды кликнули по строке из таблицы.");
                 }
             }
         }

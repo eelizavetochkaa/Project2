@@ -106,19 +106,30 @@ namespace ProjectTwo
             if (SelectedRow != null)
             {
                 SelectedRow.Cells["Matching"].Value = 2;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 2;
 
                 using (var context = new CafesContext())
                 {
-                    var entity = (Bar)SelectedRow.DataBoundItem;
-                    entity.Matching = 2;
-                    context.SaveChanges();
-                    MessageBox.Show("Добавлено");
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Изменения сохранены.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
             }
+
         }
 
         private void three1_Click(object sender, EventArgs e)
@@ -126,12 +137,23 @@ namespace ProjectTwo
             if (SelectedRow != null)
             {
                 SelectedRow.Cells["Matching"].Value = 3;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 3;
 
                 using (var context = new CafesContext())
                 {
-                    var entity = (Bar)SelectedRow.DataBoundItem;
-                    entity.Matching = 3;
-                    context.SaveChanges();
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Изменения сохранены.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
                 }
             }
             else
@@ -145,12 +167,23 @@ namespace ProjectTwo
             if (SelectedRow != null)
             {
                 SelectedRow.Cells["Matching"].Value = 4;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 4;
 
                 using (var context = new CafesContext())
                 {
-                    var entity = (Bar)SelectedRow.DataBoundItem;
-                    entity.Matching = 4;
-                    context.SaveChanges();
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Изменения сохранены.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
                 }
             }
             else
@@ -163,12 +196,23 @@ namespace ProjectTwo
             if (SelectedRow != null)
             {
                 SelectedRow.Cells["Matching"].Value = 5;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 5;
 
                 using (var context = new CafesContext())
                 {
-                    var entity = (Bar)SelectedRow.DataBoundItem;
-                    entity.Matching = 5;
-                    context.SaveChanges();
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Изменения сохранены.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
                 }
             }
             else
@@ -181,12 +225,23 @@ namespace ProjectTwo
             if (SelectedRow != null)
             {
                 SelectedRow.Cells["Matching"].Value = 6;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 6;
 
                 using (var context = new CafesContext())
                 {
-                    var entity = (Bar)SelectedRow.DataBoundItem;
-                    entity.Matching = 6;
-                    context.SaveChanges();
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Изменения сохранены.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
                 }
             }
             else

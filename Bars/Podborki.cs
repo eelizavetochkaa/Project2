@@ -13,12 +13,14 @@ namespace Bars
 {
     public partial class Podborki : Form
     {
+        private CafesContext context;
         public int restaurantId;
         public Podborki()
         {
             InitializeComponent();
             LoadDataFromDatabase();
             list3.CellMouseDoubleClick += list2_CellMouseDoubleClick;
+            context = new CafesContext();
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -56,8 +58,8 @@ namespace Bars
         }
         private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0 )
+
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 int columnIndex0 = 0;
                 int columnIndex1 = 1;
@@ -95,5 +97,46 @@ namespace Bars
             }
         }
 
+        private void delete_Click(object sender, EventArgs e)
+        {
+            string title = podborka.Text;
+            DialogResult result = MessageBox.Show($"Вы уверены, что хотите удалить подборку '{title}'?", "Подтверждение удаления", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes && podborka.Text != "Избранное")
+            {
+                try
+                {
+                    using (var context = new CafesContext())
+                    {
+                        var matching = context.Matchings.FirstOrDefault(m => m.Title == title);
+
+                        if (matching != null)
+                        {
+                            var relatedEntities = context.Bars.Where(re => re.Matching == matching.Id);
+                            context.Bars.RemoveRange(relatedEntities);
+                            context.Matchings.Remove(matching);
+                            context.SaveChanges();
+                            MessageBox.Show("Подборка успешно удалена");
+                            Choosing1 choose1Form = new Choosing1();
+                            this.Hide();
+                            choose1Form.ShowDialog();
+                            this.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Подборка не найдена в базе данных");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Произошла ошибка: {ex.Message}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Подборку избранное удалить нельзя!");
+            }
+        }
     }
 }

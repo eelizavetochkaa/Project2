@@ -35,6 +35,7 @@
             name = new Label();
             list3 = new DataGridView();
             podborka = new Label();
+            delete = new Button();
             ((System.ComponentModel.ISupportInitialize)photo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)list3).BeginInit();
             SuspendLayout();
@@ -109,6 +110,19 @@
             podborka.TabIndex = 28;
             podborka.Text = "label1";
             // 
+            // delete
+            // 
+            delete.BackColor = Color.NavajoWhite;
+            delete.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            delete.ForeColor = Color.FromArgb(136, 92, 64);
+            delete.Location = new Point(1087, 669);
+            delete.Name = "delete";
+            delete.Size = new Size(194, 52);
+            delete.TabIndex = 29;
+            delete.Text = "Удалить подборку";
+            delete.UseVisualStyleBackColor = false;
+            delete.Click += delete_Click;
+            // 
             // Podborki
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -116,6 +130,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1443, 750);
+            Controls.Add(delete);
             Controls.Add(podborka);
             Controls.Add(back);
             Controls.Add(description2);
@@ -138,5 +153,6 @@
         private Label name;
         public Label podborka;
         public DataGridView list3;
+        private Button delete;
     }
 }

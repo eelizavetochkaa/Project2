@@ -41,11 +41,32 @@ namespace ProjectTwo
 
         private void favs_Click(object sender, EventArgs e)
         {
-            Podborki podborkiForm = new Podborki();
-            this.Hide();
-            podborkiForm.podborka.Text = "Избранное";
-            podborkiForm.ShowDialog();
-            this.Show();
+            if (SelectedRow != null)
+            {
+                SelectedRow.Cells["Matching"].Value = 1;
+                var entity = (Bar)SelectedRow.DataBoundItem;
+                entity.Matching = 1;
+
+                using (var context = new CafesContext())
+                {
+                    try
+                    {
+                        context.Entry(entity).State = EntityState.Modified;
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Вы успешно добавили позицию в избранное");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Нет выбранной строки для обновления.");
+            }
         }
 
         
@@ -117,7 +138,7 @@ namespace ProjectTwo
 
                         context.SaveChanges();
 
-                        MessageBox.Show("Изменения сохранены.");
+                        MessageBox.Show("Вы успешно добавили позицию в подборку");
                     }
                     catch (Exception ex)
                     {
@@ -148,7 +169,7 @@ namespace ProjectTwo
 
                         context.SaveChanges();
 
-                        MessageBox.Show("Изменения сохранены.");
+                        MessageBox.Show("Вы успешно добавили позицию в подборку");
                     }
                     catch (Exception ex)
                     {
@@ -178,7 +199,7 @@ namespace ProjectTwo
 
                         context.SaveChanges();
 
-                        MessageBox.Show("Изменения сохранены.");
+                        MessageBox.Show("Вы успешно добавили позицию в подборку");
                     }
                     catch (Exception ex)
                     {
@@ -207,7 +228,7 @@ namespace ProjectTwo
 
                         context.SaveChanges();
 
-                        MessageBox.Show("Изменения сохранены.");
+                        MessageBox.Show("Вы успешно добавили позицию в подборку");
                     }
                     catch (Exception ex)
                     {
@@ -236,7 +257,7 @@ namespace ProjectTwo
 
                         context.SaveChanges();
 
-                        MessageBox.Show("Изменения сохранены.");
+                        MessageBox.Show("Вы успешно добавили позицию в подборку");
                     }
                     catch (Exception ex)
                     {

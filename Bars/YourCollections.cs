@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace ProjectTwo
 {
-    
+
     public partial class YourCollections : Form
     {
-      
+
 
         public YourCollections()
         {
@@ -48,7 +48,7 @@ namespace ProjectTwo
 
         private void favs_Click(object sender, EventArgs e)
         {
-            
+
             using (var context = new CafesContext())
             {
 
@@ -110,6 +110,27 @@ namespace ProjectTwo
                 {
                     six.Text = "";
                 }
+            }
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext()) ;
+        }
+
+        private void two_Click(object sender, EventArgs e)
+        {
+            using (var context = new CafesContext())
+            {
+
+                var two2 = context.Bars.Where(entity => entity.Matching == 2).ToList();
+                Podborki podborkiForm = new Podborki();
+                this.Hide();
+                podborkiForm.podborka.Text = two.Text;
+                podborkiForm.list3.DataSource = two2;
+                podborkiForm.ShowDialog();
+                this.Show();
+
             }
         }
     }

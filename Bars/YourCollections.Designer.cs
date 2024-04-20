@@ -135,6 +135,7 @@
             two.Size = new Size(194, 52);
             two.TabIndex = 18;
             two.UseVisualStyleBackColor = false;
+            two.Click += two_Click;
             // 
             // six
             // 
@@ -158,6 +159,7 @@
             delete.TabIndex = 23;
             delete.Text = "Удалить подборку";
             delete.UseVisualStyleBackColor = false;
+            delete.Click += delete_Click;
             // 
             // YourCollections
             // 

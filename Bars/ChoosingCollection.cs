@@ -42,5 +42,10 @@ namespace ProjectTwo
             podborkiForm.ShowDialog();
             this.Show();
         }
+
+        private void five_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

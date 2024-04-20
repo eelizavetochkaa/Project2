@@ -33,6 +33,11 @@
             add2 = new Button();
             favs = new Button();
             back = new Button();
+            five = new Button();
+            four = new Button();
+            three = new Button();
+            two = new Button();
+            six = new Button();
             SuspendLayout();
             // 
             // collections
@@ -86,6 +91,61 @@
             back.UseVisualStyleBackColor = false;
             back.Click += back_Click;
             // 
+            // five
+            // 
+            five.BackColor = Color.FromArgb(136, 92, 64);
+            five.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            five.ForeColor = Color.NavajoWhite;
+            five.Location = new Point(268, 535);
+            five.Name = "five";
+            five.Size = new Size(194, 52);
+            five.TabIndex = 21;
+            five.UseVisualStyleBackColor = false;
+            // 
+            // four
+            // 
+            four.BackColor = Color.FromArgb(136, 92, 64);
+            four.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            four.ForeColor = Color.NavajoWhite;
+            four.Location = new Point(268, 451);
+            four.Name = "four";
+            four.Size = new Size(194, 52);
+            four.TabIndex = 20;
+            four.UseVisualStyleBackColor = false;
+            // 
+            // three
+            // 
+            three.BackColor = Color.FromArgb(136, 92, 64);
+            three.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            three.ForeColor = Color.NavajoWhite;
+            three.Location = new Point(268, 363);
+            three.Name = "three";
+            three.Size = new Size(194, 52);
+            three.TabIndex = 19;
+            three.UseVisualStyleBackColor = false;
+            // 
+            // two
+            // 
+            two.BackColor = Color.FromArgb(136, 92, 64);
+            two.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            two.ForeColor = Color.NavajoWhite;
+            two.Location = new Point(268, 280);
+            two.Name = "two";
+            two.Size = new Size(194, 52);
+            two.TabIndex = 18;
+            two.UseVisualStyleBackColor = false;
+            // 
+            // six
+            // 
+            six.BackColor = Color.FromArgb(136, 92, 64);
+            six.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            six.ForeColor = Color.NavajoWhite;
+            six.Location = new Point(268, 615);
+            six.Name = "six";
+            six.Size = new Size(194, 52);
+            six.TabIndex = 22;
+            six.UseVisualStyleBackColor = false;
+            // 
             // YourCollections
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -93,6 +153,11 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 861);
+            Controls.Add(six);
+            Controls.Add(five);
+            Controls.Add(four);
+            Controls.Add(three);
+            Controls.Add(two);
             Controls.Add(back);
             Controls.Add(favs);
             Controls.Add(add2);
@@ -110,5 +175,10 @@
         private Button add2;
         private Button favs;
         private Button back;
+        private Button five;
+        private Button four;
+        private Button three;
+        private Button two;
+        private Button six;
     }
 }

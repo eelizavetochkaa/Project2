@@ -20,6 +20,7 @@ namespace ProjectTwo
         public YourCollections()
         {
             InitializeComponent();
+            UpdateButtonText();
         }
 
         private void YourCollections_Load(object sender, EventArgs e)
@@ -60,6 +61,56 @@ namespace ProjectTwo
                 this.Show();
             }
         }
-
+        private void UpdateButtonText()
+        {
+            using (var context = new CafesContext())
+            {
+                var matching = context.Matchings.FirstOrDefault(m => m.Id == 2);
+                if (matching != null)
+                {
+                    two.Text = matching.Title;
+                }
+                else
+                {
+                    two.Text = "";
+                }
+                var matching3 = context.Matchings.FirstOrDefault(m => m.Id == 3);
+                var matching4 = context.Matchings.FirstOrDefault(m => m.Id == 4);
+                var matching5 = context.Matchings.FirstOrDefault(m => m.Id == 5);
+                var matching6 = context.Matchings.FirstOrDefault(m => m.Id == 6);
+                if (matching3 != null)
+                {
+                    three.Text = matching3.Title;
+                }
+                else
+                {
+                    three.Text = "";
+                }
+                if (matching4 != null)
+                {
+                    four.Text = matching4.Title;
+                }
+                else
+                {
+                    four.Text = "";
+                }
+                if (matching5 != null)
+                {
+                    five.Text = matching5.Title;
+                }
+                else
+                {
+                    five.Text = "";
+                }
+                if (matching6 != null)
+                {
+                    six.Text = matching6.Title;
+                }
+                else
+                {
+                    six.Text = "";
+                }
+            }
+        }
     }
 }

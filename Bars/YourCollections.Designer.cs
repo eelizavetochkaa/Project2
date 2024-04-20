@@ -38,6 +38,7 @@
             three = new Button();
             two = new Button();
             six = new Button();
+            delete = new Button();
             SuspendLayout();
             // 
             // collections
@@ -57,7 +58,7 @@
             add2.BackColor = Color.NavajoWhite;
             add2.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             add2.ForeColor = Color.FromArgb(136, 92, 64);
-            add2.Location = new Point(268, 760);
+            add2.Location = new Point(268, 727);
             add2.Name = "add2";
             add2.Size = new Size(194, 52);
             add2.TabIndex = 10;
@@ -146,6 +147,18 @@
             six.TabIndex = 22;
             six.UseVisualStyleBackColor = false;
             // 
+            // delete
+            // 
+            delete.BackColor = Color.NavajoWhite;
+            delete.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            delete.ForeColor = Color.FromArgb(136, 92, 64);
+            delete.Location = new Point(268, 797);
+            delete.Name = "delete";
+            delete.Size = new Size(194, 52);
+            delete.TabIndex = 23;
+            delete.Text = "Удалить подборку";
+            delete.UseVisualStyleBackColor = false;
+            // 
             // YourCollections
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -153,6 +166,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 861);
+            Controls.Add(delete);
             Controls.Add(six);
             Controls.Add(five);
             Controls.Add(four);
@@ -180,5 +194,6 @@
         private Button three;
         private Button two;
         private Button six;
+        private Button delete;
     }
 }

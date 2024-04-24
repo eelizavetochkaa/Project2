@@ -152,9 +152,6 @@ namespace Project2
             }
 
         }
-
-
-
         private void Choosing1_Load_1(object sender, EventArgs e)
         {
             like.FlatStyle = FlatStyle.Flat;
@@ -165,29 +162,27 @@ namespace Project2
             back.FlatAppearance.BorderSize = 0;
             description2.AutoEllipsis = true;
         }
-
         private void back_Click_1(object sender, EventArgs e)
         {
-            Cafe cafe = new Cafe();
+            var cafe = new Cafe();
             this.Hide();
             cafe.ShowDialog();
-            this.Show();
+            this.Close();
         }
-
         private void show_Click_1(object sender, EventArgs e)
         {
-            YourRecomendations recomends = new YourRecomendations();
+            var recomends = new YourRecomendations();
             this.Hide();
             recomends.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void yours_Click_1(object sender, EventArgs e)
         {
-            YourCollections colls = new YourCollections();
+            var colls = new YourCollections();
             this.Hide();
             colls.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void addtofav_CheckedChanged(object sender, EventArgs e)
@@ -214,11 +209,6 @@ namespace Project2
                     MessageBox.Show("Не получилось добавить в избранное. Проверьте, что вы точно дважды кликнули по строке из таблицы.");
                 }
             }
-        }
-
-        private void photo_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

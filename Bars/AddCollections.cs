@@ -26,12 +26,11 @@ namespace ProjectTwo
             YourCollections colls = new YourCollections();
             this.Hide();
             colls.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void createcoll_Click(object sender, EventArgs e)
-        {
-            
+        {        
             string collectionTitle = NameColl.Text;
 
             if (!string.IsNullOrWhiteSpace(collectionTitle))
@@ -50,7 +49,7 @@ namespace ProjectTwo
                     context.SaveChanges();
 
                     MessageBox.Show("Подборка успешно добавлена.");
-                    YourCollections colls = new YourCollections();
+                    var colls = new YourCollections();
                     this.Hide();
                     colls.ShowDialog();
                     this.Show();
@@ -69,9 +68,7 @@ namespace ProjectTwo
         private void AddCollections_Load(object sender, EventArgs e)
         {
             back.FlatStyle = FlatStyle.Flat;
-            back.FlatAppearance.BorderSize = 0;
-            
+            back.FlatAppearance.BorderSize = 0;   
         }
     }
-
 }

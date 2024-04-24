@@ -76,7 +76,6 @@
             list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(list3, "list3");
             list3.Name = "list3";
-            list3.CellContentClick += list2_CellContentClick;
             // 
             // podborka
             // 
@@ -107,7 +106,6 @@
             Controls.Add(list3);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Podborki";
-            Load += Podborki_Load;
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();
             ((System.ComponentModel.ISupportInitialize)list3).EndInit();
             ResumeLayout(false);

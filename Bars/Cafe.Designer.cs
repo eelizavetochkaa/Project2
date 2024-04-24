@@ -48,7 +48,6 @@
             description.BackColor = Color.FromArgb(136, 92, 64);
             description.ForeColor = Color.FromArgb(255, 255, 192);
             description.Name = "description";
-            description.Click += description_Click;
             // 
             // start
             // 

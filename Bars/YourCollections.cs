@@ -31,15 +31,15 @@ namespace ProjectTwo
 
         private void back_Click(object sender, EventArgs e)
         {
-            Choosing1 choose1Form = new Choosing1();
+            var choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void add2_Click(object sender, EventArgs e)
         {
-            AddCollections addcolls = new AddCollections();
+            var addcolls = new AddCollections();
             this.Hide();
             addcolls.ShowDialog();
             this.Show();
@@ -58,7 +58,7 @@ namespace ProjectTwo
                 podborkiForm.podborka.Text = "Избранное";
                 podborkiForm.list3.DataSource = favs;
                 podborkiForm.ShowDialog();
-                this.Show();
+                this.Close();
             }
         }
         private void UpdateButtonText()
@@ -72,7 +72,7 @@ namespace ProjectTwo
                 }
                 else
                 {
-                    two.Text = "";
+                    two.Text = string.Empty;
                 }
                 var matching3 = context.Matchings.FirstOrDefault(m => m.Id == 3);
                 var matching4 = context.Matchings.FirstOrDefault(m => m.Id == 4);
@@ -84,7 +84,7 @@ namespace ProjectTwo
                 }
                 else
                 {
-                    three.Text = "";
+                    three.Text = string.Empty;
                 }
                 if (matching4 != null)
                 {
@@ -92,7 +92,7 @@ namespace ProjectTwo
                 }
                 else
                 {
-                    four.Text = "";
+                    four.Text = string.Empty;
                 }
                 if (matching5 != null)
                 {
@@ -100,7 +100,7 @@ namespace ProjectTwo
                 }
                 else
                 {
-                    five.Text = "";
+                    five.Text = string.Empty;
                 }
                 if (matching6 != null)
                 {
@@ -108,29 +108,22 @@ namespace ProjectTwo
                 }
                 else
                 {
-                    six.Text = "";
+                    six.Text = string.Empty;
                 }
             }
         }
-
-        private void delete_Click(object sender, EventArgs e)
-        {
-            using (var context = new CafesContext()) ;
-        }
-
         private void two_Click(object sender, EventArgs e)
         {
             using (var context = new CafesContext())
             {
 
                 var two2 = context.Bars.Where(entity => entity.Matching == 2).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = two.Text;
                 podborkiForm.list3.DataSource = two2;
                 podborkiForm.ShowDialog();
-                this.Show();
-
+                this.Close();
             }
         }
 
@@ -140,12 +133,12 @@ namespace ProjectTwo
             {
 
                 var two3 = context.Bars.Where(entity => entity.Matching == 3).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = three.Text;
                 podborkiForm.list3.DataSource = two3;
                 podborkiForm.ShowDialog();
-                this.Show();
+                this.Close();
 
             }
         }
@@ -156,12 +149,12 @@ namespace ProjectTwo
             {
 
                 var two4 = context.Bars.Where(entity => entity.Matching == 4).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = four.Text;
                 podborkiForm.list3.DataSource = two4;
                 podborkiForm.ShowDialog();
-                this.Show();
+                this.Close();
 
             }
         }
@@ -172,12 +165,12 @@ namespace ProjectTwo
             {
 
                 var two5 = context.Bars.Where(entity => entity.Matching == 5).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = five.Text;
                 podborkiForm.list3.DataSource = two5;
                 podborkiForm.ShowDialog();
-                this.Show();
+                this.Close();
 
             }
         }
@@ -188,12 +181,12 @@ namespace ProjectTwo
             {
 
                 var two6 = context.Bars.Where(entity => entity.Matching == 6).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = six.Text;
                 podborkiForm.list3.DataSource = two6;
                 podborkiForm.ShowDialog();
-                this.Show();
+                this.Close();
 
             }
         }

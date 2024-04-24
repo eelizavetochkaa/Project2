@@ -117,7 +117,6 @@
             photo.BackColor = Color.FromArgb(136, 92, 64);
             photo.Name = "photo";
             photo.TabStop = false;
-            photo.Click += photo_Click;
             // 
             // description2
             // 

@@ -26,17 +26,16 @@ namespace ProjectTwo
 
         private void ChoosingCollection_Load(object sender, EventArgs e)
         {
-
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
         }
 
         private void back_Click(object sender, EventArgs e)
         {
-            YourRecomendations recs = new YourRecomendations();
+            var recs = new YourRecomendations();
             this.Hide();
             recs.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void favs_Click(object sender, EventArgs e)

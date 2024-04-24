@@ -117,7 +117,7 @@ namespace ProjectTwo
                     choosing.SelectedRow = selectedRow;
                     this.Hide();
                     choosing.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
             else
@@ -143,7 +143,7 @@ namespace ProjectTwo
             Choosing1 choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void throwoff_Click(object sender, EventArgs e)
@@ -157,28 +157,12 @@ namespace ProjectTwo
             dbContext.SaveChanges();
 
             MessageBox.Show("Ваши предпочтения сброшены");
-            Choosing1 choose1Form = new Choosing1();
+            var choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
-            this.Show();
+            this.Close();
 
         }
-
-        private void spisok_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void list2_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void mark_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
         private void addtofav_CheckedChanged(object sender, EventArgs e)
         {
             using (var context = new CafesContext())
@@ -222,7 +206,7 @@ namespace ProjectTwo
                     {
                         using (MemoryStream ms = new MemoryStream(entity.Photo))
                         {
-                            Image image = Image.FromStream(ms);
+                            var image = Image.FromStream(ms);
                             photo.Image = image;
                         }
                     }

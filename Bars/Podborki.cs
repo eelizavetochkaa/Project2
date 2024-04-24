@@ -25,10 +25,10 @@ namespace Bars
 
         private void back_Click(object sender, EventArgs e)
         {
-            Choosing1 choose1Form = new Choosing1();
+            var choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void LoadDataFromDatabase()
@@ -45,16 +45,6 @@ namespace Bars
                     MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
                 }
             }
-        }
-
-        private void list2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void Podborki_Load(object sender, EventArgs e)
-        {
-
         }
         private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -84,7 +74,7 @@ namespace Bars
                     {
                         using (MemoryStream ms = new MemoryStream(entity.Photo))
                         {
-                            Image image = Image.FromStream(ms);
+                            var image = Image.FromStream(ms);
                             photo.Image = image;
                         }
                     }
@@ -117,10 +107,10 @@ namespace Bars
                             context.Matchings.Remove(matching);
                             context.SaveChanges();
                             MessageBox.Show("Подборка успешно удалена");
-                            Choosing1 choose1Form = new Choosing1();
+                            var choose1Form = new Choosing1();
                             this.Hide();
                             choose1Form.ShowDialog();
-                            this.Show();
+                            this.Close();
                         }
                         else
                         {

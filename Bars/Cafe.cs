@@ -1,4 +1,5 @@
-﻿using Bars.Properties;
+﻿using Bars;
+using Bars.Properties;
 using Project2;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
+
+using System;
+using System.Globalization;
+using System.Windows.Forms;
 
 namespace DZ
 {
@@ -33,16 +38,10 @@ namespace DZ
 
         private void start_Click(object sender, EventArgs e)
         {
-            Choosing1 choose1Form = new Choosing1();
+            var choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
-            this.Show();
-
-        }
-
-
-        private void description_Click(object sender, EventArgs e)
-        {
+            this.Close();
 
         }
         private void Cafe_Load(object sender, EventArgs e)
@@ -57,7 +56,6 @@ namespace DZ
             if (!String.IsNullOrEmpty(Settings.Default.Language))
             {
                 comboBox1.SelectedValue = Settings.Default.Language;
-
             }
         }
 

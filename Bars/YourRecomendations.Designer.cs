@@ -51,7 +51,6 @@
             spisok.BackColor = Color.NavajoWhite;
             spisok.ForeColor = Color.FromArgb(136, 92, 64);
             spisok.Name = "spisok";
-            spisok.Click += spisok_Click;
             // 
             // list2
             // 
@@ -107,7 +106,6 @@
             mark.BackColor = Color.FromArgb(136, 92, 64);
             mark.ForeColor = Color.Moccasin;
             mark.Name = "mark";
-            mark.Click += mark_Click;
             // 
             // dislike
             // 

@@ -124,7 +124,7 @@ namespace ProjectTwo
             {
                 MessageBox.Show("Пожалуйста, выберите строку в DataGridView.");
             }
-            
+
         }
 
         private void YourRecomendations_Load(object sender, EventArgs e)
@@ -135,6 +135,16 @@ namespace ProjectTwo
             dislike.FlatAppearance.BorderSize = 0;
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+            foreach (DataGridViewColumn column in list2.Columns)
+            {
+                column.Visible = false;
+            }
+            list2.Columns[1].Visible = true;
+            list2.Columns[2].Visible = true;
+            list2.Columns[4].Visible = true;
+            list2.Columns[6].Visible = true;
+            list2.Columns[7].Visible = true;
+            list2.Columns[8].Visible = true;
             LoadDataFromDatabase();
         }
 
@@ -217,6 +227,6 @@ namespace ProjectTwo
                 }
             }
         }
-        
+
     }
 }

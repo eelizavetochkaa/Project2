@@ -54,15 +54,16 @@
             // 
             // list2
             // 
-            resources.ApplyResources(list2, "list2");
             list2.BackgroundColor = Color.FromArgb(136, 92, 64);
             list2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(list2, "list2");
             list2.Name = "list2";
+            list2.ReadOnly = true;
             // 
             // throwoff
             // 
-            resources.ApplyResources(throwoff, "throwoff");
             throwoff.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(throwoff, "throwoff");
             throwoff.ForeColor = Color.FromArgb(136, 92, 64);
             throwoff.Name = "throwoff";
             throwoff.UseVisualStyleBackColor = false;
@@ -70,8 +71,8 @@
             // 
             // add
             // 
-            resources.ApplyResources(add, "add");
             add.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(add, "add");
             add.ForeColor = Color.FromArgb(136, 92, 64);
             add.Name = "add";
             add.UseVisualStyleBackColor = false;
@@ -86,39 +87,39 @@
             // 
             // photo
             // 
-            resources.ApplyResources(photo, "photo");
             photo.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(photo, "photo");
             photo.Name = "photo";
             photo.TabStop = false;
             // 
             // description2
             // 
-            resources.ApplyResources(description2, "description2");
             description2.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(description2, "description2");
             description2.ForeColor = Color.FromArgb(136, 92, 64);
             description2.Name = "description2";
             // 
             // mark
             // 
-            resources.ApplyResources(mark, "mark");
             mark.AllowDrop = true;
             mark.AutoEllipsis = true;
+            resources.ApplyResources(mark, "mark");
             mark.BackColor = Color.FromArgb(136, 92, 64);
             mark.ForeColor = Color.Moccasin;
             mark.Name = "mark";
             // 
             // dislike
             // 
-            resources.ApplyResources(dislike, "dislike");
             dislike.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(dislike, "dislike");
             dislike.ForeColor = Color.NavajoWhite;
             dislike.Name = "dislike";
             dislike.UseVisualStyleBackColor = false;
             // 
             // like
             // 
-            resources.ApplyResources(like, "like");
             like.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(like, "like");
             like.ForeColor = Color.NavajoWhite;
             like.Name = "like";
             like.UseVisualStyleBackColor = false;
@@ -134,8 +135,8 @@
             // 
             // back
             // 
-            resources.ApplyResources(back, "back");
             back.BackColor = Color.Transparent;
+            resources.ApplyResources(back, "back");
             back.ForeColor = Color.NavajoWhite;
             back.Name = "back";
             back.UseVisualStyleBackColor = false;

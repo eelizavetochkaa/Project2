@@ -161,6 +161,17 @@ namespace Project2
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
             description2.AutoEllipsis = true;
+            foreach (DataGridViewColumn column in list.Columns)
+            {
+                column.Visible = false;
+            }
+
+            list.Columns[1].Visible = true;
+            list.Columns[2].Visible = true;
+            list.Columns[4].Visible = true;
+            list.Columns[6].Visible = true;
+            list.Columns[7].Visible = true;
+            list.Columns[8].Visible = true;
         }
         private void back_Click_1(object sender, EventArgs e)
         {

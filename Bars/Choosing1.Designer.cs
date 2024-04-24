@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Choosing1));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             choose1 = new Label();
             list = new DataGridView();
             show = new Button();
@@ -54,15 +56,34 @@
             // 
             // list
             // 
-            resources.ApplyResources(list, "list");
+            list.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list.BackgroundColor = Color.FromArgb(136, 92, 64);
-            list.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            list.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            resources.ApplyResources(list, "list");
+            list.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle2.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle2.ForeColor = Color.SaddleBrown;
+            dataGridViewCellStyle2.SelectionBackColor = Color.BurlyWood;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            list.DefaultCellStyle = dataGridViewCellStyle2;
+            list.GridColor = Color.Sienna;
             list.Name = "list";
+            list.ReadOnly = true;
             // 
             // show
             // 
-            resources.ApplyResources(show, "show");
             show.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(show, "show");
             show.ForeColor = Color.FromArgb(136, 92, 64);
             show.Name = "show";
             show.UseVisualStyleBackColor = false;
@@ -70,8 +91,8 @@
             // 
             // yours
             // 
-            resources.ApplyResources(yours, "yours");
             yours.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(yours, "yours");
             yours.ForeColor = Color.FromArgb(136, 92, 64);
             yours.Name = "yours";
             yours.UseVisualStyleBackColor = false;
@@ -79,8 +100,8 @@
             // 
             // like
             // 
-            resources.ApplyResources(like, "like");
             like.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(like, "like");
             like.ForeColor = Color.NavajoWhite;
             like.Name = "like";
             like.UseVisualStyleBackColor = false;
@@ -88,8 +109,8 @@
             // 
             // dislike
             // 
-            resources.ApplyResources(dislike, "dislike");
             dislike.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(dislike, "dislike");
             dislike.ForeColor = Color.NavajoWhite;
             dislike.Name = "dislike";
             dislike.UseVisualStyleBackColor = false;
@@ -97,9 +118,9 @@
             // 
             // mark
             // 
-            resources.ApplyResources(mark, "mark");
             mark.AllowDrop = true;
             mark.AutoEllipsis = true;
+            resources.ApplyResources(mark, "mark");
             mark.BackColor = Color.FromArgb(136, 92, 64);
             mark.ForeColor = Color.Moccasin;
             mark.Name = "mark";
@@ -113,16 +134,16 @@
             // 
             // photo
             // 
-            resources.ApplyResources(photo, "photo");
             photo.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(photo, "photo");
             photo.Name = "photo";
             photo.TabStop = false;
             // 
             // description2
             // 
-            resources.ApplyResources(description2, "description2");
             description2.AutoEllipsis = true;
             description2.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(description2, "description2");
             description2.ForeColor = Color.FromArgb(136, 92, 64);
             description2.Name = "description2";
             // 
@@ -137,8 +158,8 @@
             // 
             // back
             // 
-            resources.ApplyResources(back, "back");
             back.BackColor = Color.Transparent;
+            resources.ApplyResources(back, "back");
             back.ForeColor = Color.NavajoWhite;
             back.Name = "back";
             back.UseVisualStyleBackColor = false;

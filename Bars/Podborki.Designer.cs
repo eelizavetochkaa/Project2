@@ -76,6 +76,7 @@
             list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(list3, "list3");
             list3.Name = "list3";
+            list3.ReadOnly = true;
             // 
             // podborka
             // 

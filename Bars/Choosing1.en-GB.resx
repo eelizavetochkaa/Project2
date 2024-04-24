@@ -118,52 +118,38 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 605</value>
+  <data name="choose1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 46</value>
   </data>
-  <data name="addtofav.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 18pt</value>
+  <data name="choose1.Text" xml:space="preserve">
+    <value>Choose your favorite places</value>
   </data>
-  <data name="&gt;&gt;dislike.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="show.Text" xml:space="preserve">
+    <value>Show recommendations</value>
   </data>
-  <data name="description2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 19.800001pt</value>
+  <data name="yours.Text" xml:space="preserve">
+    <value>Your collections</value>
   </data>
-  <data name="&gt;&gt;show.Name" xml:space="preserve">
-    <value>show</value>
+  <data name="mark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 46</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="photo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="mark.Text" xml:space="preserve">
+    <value>Mark</value>
   </data>
-  <data name="&gt;&gt;photo.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 46</value>
   </data>
-  <data name="choose1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 19.800001pt</value>
+  <data name="name.Text" xml:space="preserve">
+    <value>Title</value>
   </data>
-  <data name="&gt;&gt;mark.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="description2.Text" xml:space="preserve">
+    <value>Description</value>
   </data>
-  <data name="&gt;&gt;name.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="addtofav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 45</value>
   </data>
-  <data name="&gt;&gt;yours.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="dislike.Text" xml:space="preserve">
-    <value>👎</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dislike.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="mark.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 19.800001pt</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1443, 750</value>
+  <data name="addtofav.Text" xml:space="preserve">
+    <value>Add to favourites</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -880,323 +866,4 @@
         A98MvdtsW2v21+2v21+yv21+2v21zzO8m8v598++D7nj5fw3/9k=
 </value>
   </data>
-  <data name="&gt;&gt;name.Name" xml:space="preserve">
-    <value>name</value>
-  </data>
-  <data name="show.Text" xml:space="preserve">
-    <value>Показать рекомендации</value>
-  </data>
-  <data name="description2.Text" xml:space="preserve">
-    <value>Описание</value>
-  </data>
-  <data name="name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1060, 53</value>
-  </data>
-  <data name="&gt;&gt;mark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;back.Name" xml:space="preserve">
-    <value>back</value>
-  </data>
-  <data name="yours.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 10.2pt</value>
-  </data>
-  <data name="photo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 144</value>
-  </data>
-  <data name="&gt;&gt;list.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="list.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="yours.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;show.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="choose1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="name.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="back.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 78</value>
-  </data>
-  <data name="&gt;&gt;like.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;dislike.Name" xml:space="preserve">
-    <value>dislike</value>
-  </data>
-  <data name="dislike.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1235, 605</value>
-  </data>
-  <data name="&gt;&gt;addtofav.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="choose1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 29</value>
-  </data>
-  <data name="&gt;&gt;addtofav.Name" xml:space="preserve">
-    <value>addtofav</value>
-  </data>
-  <data name="choose1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 92</value>
-  </data>
-  <data name="&gt;&gt;description2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;addtofav.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;yours.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="name.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 19.800001pt</value>
-  </data>
-  <data name="&gt;&gt;like.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;list.Name" xml:space="preserve">
-    <value>list</value>
-  </data>
-  <data name="&gt;&gt;choose1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="&gt;&gt;like.Name" xml:space="preserve">
-    <value>like</value>
-  </data>
-  <data name="name.Text" xml:space="preserve">
-    <value>Название</value>
-  </data>
-  <data name="photo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="like.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;description2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="yours.Text" xml:space="preserve">
-    <value>Ваши подборки</value>
-  </data>
-  <data name="dislike.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 18pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;dislike.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="description2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 231</value>
-  </data>
-  <data name="choose1.Text" xml:space="preserve">
-    <value>Выберите понравившиеся 
-заведения</value>
-  </data>
-  <data name="dislike.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
-  </data>
-  <data name="addtofav.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="&gt;&gt;addtofav.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="choose1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="description2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 371</value>
-  </data>
-  <data name="like.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
-  </data>
-  <data name="yours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 676</value>
-  </data>
-  <data name="list.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 144</value>
-  </data>
-  <data name="&gt;&gt;mark.Name" xml:space="preserve">
-    <value>mark</value>
-  </data>
-  <data name="name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 46</value>
-  </data>
-  <data name="&gt;&gt;back.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mark.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="addtofav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 676</value>
-  </data>
-  <data name="photo.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="name.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="addtofav.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;photo.Name" xml:space="preserve">
-    <value>photo</value>
-  </data>
-  <data name="&gt;&gt;description2.Name" xml:space="preserve">
-    <value>description2</value>
-  </data>
-  <data name="back.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 25.2pt, style=Bold</value>
-  </data>
-  <data name="description2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="mark.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;back.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;list.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="show.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 676</value>
-  </data>
-  <data name="&gt;&gt;yours.Name" xml:space="preserve">
-    <value>yours</value>
-  </data>
-  <data name="&gt;&gt;show.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;choose1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;choose1.Name" xml:space="preserve">
-    <value>choose1</value>
-  </data>
-  <data name="&gt;&gt;name.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;list.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="back.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="&gt;&gt;back.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="yours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 52</value>
-  </data>
-  <data name="&gt;&gt;choose1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="show.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 52</value>
-  </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="addtofav.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 45</value>
-  </data>
-  <data name="show.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="like.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1297, 605</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;photo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="show.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 10.2pt</value>
-  </data>
-  <data name="back.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Choosing1</value>
-  </data>
-  <data name="addtofav.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="photo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 224</value>
-  </data>
-  <data name="&gt;&gt;dislike.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;description2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="like.Text" xml:space="preserve">
-    <value>👍</value>
-  </data>
-  <data name="&gt;&gt;name.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="mark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 46</value>
-  </data>
-  <data name="back.Text" xml:space="preserve">
-    <value>⇐</value>
-  </data>
-  <data name="mark.Text" xml:space="preserve">
-    <value>Оценкаㅤㅤㅤㅤㅤㅤㅤㅤㅤ</value>
-  </data>
-  <data name="&gt;&gt;like.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="list.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="description2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;photo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="choose1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="like.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 18pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;show.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="list.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 507</value>
-  </data>
-  <data name="&gt;&gt;mark.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="addtofav.Text" xml:space="preserve">
-    <value>Добавить в избранное</value>
-  </data>
-  <data name="&gt;&gt;yours.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="mark.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

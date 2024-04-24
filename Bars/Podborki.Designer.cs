@@ -43,93 +43,61 @@
             // back
             // 
             back.BackColor = Color.Transparent;
-            back.Font = new Font("Segoe UI Black", 25.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            resources.ApplyResources(back, "back");
             back.ForeColor = Color.NavajoWhite;
-            back.Location = new Point(53, 18);
             back.Name = "back";
-            back.Size = new Size(62, 78);
-            back.TabIndex = 27;
-            back.Text = "⇐";
             back.UseVisualStyleBackColor = false;
             back.Click += back_Click;
             // 
             // description2
             // 
             description2.BackColor = Color.NavajoWhite;
-            description2.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            resources.ApplyResources(description2, "description2");
             description2.ForeColor = Color.FromArgb(136, 92, 64);
-            description2.Location = new Point(953, 353);
             description2.Name = "description2";
-            description2.Size = new Size(437, 296);
-            description2.TabIndex = 22;
-            description2.Text = "Описание";
-            description2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // photo
             // 
             photo.BackColor = Color.FromArgb(136, 92, 64);
-            photo.Location = new Point(953, 126);
+            resources.ApplyResources(photo, "photo");
             photo.Name = "photo";
-            photo.Size = new Size(437, 224);
-            photo.SizeMode = PictureBoxSizeMode.Zoom;
-            photo.TabIndex = 21;
             photo.TabStop = false;
             // 
             // name
             // 
-            name.AutoSize = true;
+            resources.ApplyResources(name, "name");
             name.BackColor = Color.NavajoWhite;
-            name.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             name.ForeColor = Color.FromArgb(136, 92, 64);
-            name.Location = new Point(1070, 60);
             name.Name = "name";
-            name.Size = new Size(171, 46);
-            name.TabIndex = 20;
-            name.Text = "Название";
             // 
             // list3
             // 
             list3.BackgroundColor = Color.FromArgb(136, 92, 64);
             list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            list3.Location = new Point(175, 142);
+            resources.ApplyResources(list3, "list3");
             list3.Name = "list3";
-            list3.RowHeadersWidth = 51;
-            list3.Size = new Size(528, 507);
-            list3.TabIndex = 17;
             list3.CellContentClick += list2_CellContentClick;
             // 
             // podborka
             // 
-            podborka.AutoSize = true;
+            resources.ApplyResources(podborka, "podborka");
             podborka.BackColor = Color.NavajoWhite;
-            podborka.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             podborka.ForeColor = Color.FromArgb(136, 92, 64);
-            podborka.Location = new Point(353, 72);
             podborka.Name = "podborka";
-            podborka.Size = new Size(106, 46);
-            podborka.TabIndex = 28;
-            podborka.Text = "label1";
             // 
             // delete
             // 
             delete.BackColor = Color.NavajoWhite;
-            delete.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            resources.ApplyResources(delete, "delete");
             delete.ForeColor = Color.FromArgb(136, 92, 64);
-            delete.Location = new Point(1087, 669);
             delete.Name = "delete";
-            delete.Size = new Size(194, 52);
-            delete.TabIndex = 29;
-            delete.Text = "Удалить подборку";
             delete.UseVisualStyleBackColor = false;
             delete.Click += delete_Click;
             // 
             // Podborki
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1443, 750);
             Controls.Add(delete);
             Controls.Add(podborka);
             Controls.Add(back);
@@ -137,6 +105,7 @@
             Controls.Add(photo);
             Controls.Add(name);
             Controls.Add(list3);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Podborki";
             Load += Podborki_Load;
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();

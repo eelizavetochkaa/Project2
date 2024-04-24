@@ -133,8 +133,6 @@ namespace Project2
                 var bar = context.Bars.FirstOrDefault(b => b.Id == restaurantId);
                 if (bar != null)
                 {
-                    bar.Mark = voteOption;
-                    context.SaveChanges();
 
                     if (voteOption == 2)
                     {
@@ -144,6 +142,8 @@ namespace Project2
                     {
                         MessageBox.Show("Вы поставили 👍 этой позиции");
                     }
+                    bar.Mark = voteOption;
+                    context.SaveChanges();
                 }
                 else
                 {

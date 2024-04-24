@@ -42,122 +42,87 @@
             // 
             // collections
             // 
-            collections.AutoSize = true;
+            resources.ApplyResources(collections, "collections");
             collections.BackColor = Color.NavajoWhite;
-            collections.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             collections.ForeColor = Color.FromArgb(136, 92, 64);
-            collections.Location = new Point(237, 66);
             collections.Name = "collections";
-            collections.Size = new Size(278, 46);
-            collections.TabIndex = 8;
-            collections.Text = "Ваши подборки";
             // 
             // add2
             // 
+            resources.ApplyResources(add2, "add2");
             add2.BackColor = Color.NavajoWhite;
-            add2.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             add2.ForeColor = Color.FromArgb(136, 92, 64);
-            add2.Location = new Point(268, 727);
             add2.Name = "add2";
-            add2.Size = new Size(194, 52);
-            add2.TabIndex = 10;
-            add2.Text = "Создать подборку";
             add2.UseVisualStyleBackColor = false;
             add2.Click += add2_Click;
             // 
             // favs
             // 
+            resources.ApplyResources(favs, "favs");
             favs.BackColor = Color.FromArgb(136, 92, 64);
-            favs.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             favs.ForeColor = Color.NavajoWhite;
-            favs.Location = new Point(268, 181);
             favs.Name = "favs";
-            favs.Size = new Size(194, 52);
-            favs.TabIndex = 11;
-            favs.Text = "Избранное";
             favs.UseVisualStyleBackColor = false;
             favs.Click += favs_Click;
             // 
             // back
             // 
+            resources.ApplyResources(back, "back");
             back.BackColor = Color.Transparent;
-            back.Font = new Font("Segoe UI Black", 25.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
             back.ForeColor = Color.NavajoWhite;
-            back.Location = new Point(1, 2);
             back.Name = "back";
-            back.Size = new Size(62, 78);
-            back.TabIndex = 12;
-            back.Text = "⇐";
             back.UseVisualStyleBackColor = false;
             back.Click += back_Click;
             // 
             // five
             // 
+            resources.ApplyResources(five, "five");
             five.BackColor = Color.FromArgb(136, 92, 64);
-            five.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             five.ForeColor = Color.NavajoWhite;
-            five.Location = new Point(268, 535);
             five.Name = "five";
-            five.Size = new Size(194, 52);
-            five.TabIndex = 21;
             five.UseVisualStyleBackColor = false;
             five.Click += five_Click;
             // 
             // four
             // 
+            resources.ApplyResources(four, "four");
             four.BackColor = Color.FromArgb(136, 92, 64);
-            four.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             four.ForeColor = Color.NavajoWhite;
-            four.Location = new Point(268, 451);
             four.Name = "four";
-            four.Size = new Size(194, 52);
-            four.TabIndex = 20;
             four.UseVisualStyleBackColor = false;
             four.Click += four_Click;
             // 
             // three
             // 
+            resources.ApplyResources(three, "three");
             three.BackColor = Color.FromArgb(136, 92, 64);
-            three.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             three.ForeColor = Color.NavajoWhite;
-            three.Location = new Point(268, 363);
             three.Name = "three";
-            three.Size = new Size(194, 52);
-            three.TabIndex = 19;
             three.UseVisualStyleBackColor = false;
             three.Click += three_Click;
             // 
             // two
             // 
+            resources.ApplyResources(two, "two");
             two.BackColor = Color.FromArgb(136, 92, 64);
-            two.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             two.ForeColor = Color.NavajoWhite;
-            two.Location = new Point(268, 280);
             two.Name = "two";
-            two.Size = new Size(194, 52);
-            two.TabIndex = 18;
             two.UseVisualStyleBackColor = false;
             two.Click += two_Click;
             // 
             // six
             // 
+            resources.ApplyResources(six, "six");
             six.BackColor = Color.FromArgb(136, 92, 64);
-            six.Font = new Font("Palatino Linotype", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
             six.ForeColor = Color.NavajoWhite;
-            six.Location = new Point(268, 615);
             six.Name = "six";
-            six.Size = new Size(194, 52);
-            six.TabIndex = 22;
             six.UseVisualStyleBackColor = false;
             six.Click += six_Click;
             // 
             // YourCollections
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 861);
             Controls.Add(six);
             Controls.Add(five);
             Controls.Add(four);

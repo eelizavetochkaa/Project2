@@ -71,4 +71,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BarsTests\" />
+  </ItemGroup>
+
 </Project>

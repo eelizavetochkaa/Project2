@@ -126,7 +126,7 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="choose1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 29</value>
+    <value>226, 29</value>
   </data>
   <data name="choose1.Size" type="System.Drawing.Size, System.Drawing">
     <value>445, 92</value>
@@ -154,16 +154,19 @@
     <value>10</value>
   </data>
   <data name="list.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>29</value>
+    <value>40</value>
   </data>
   <data name="list.Location" type="System.Drawing.Point, System.Drawing">
     <value>105, 144</value>
+  </data>
+  <data name="list.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 0</value>
   </data>
   <data name="list.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="list.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 507</value>
+    <value>729, 507</value>
   </data>
   <data name="list.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -211,7 +214,7 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="yours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 676</value>
+    <value>357, 676</value>
   </data>
   <data name="yours.Size" type="System.Drawing.Size, System.Drawing">
     <value>245, 52</value>

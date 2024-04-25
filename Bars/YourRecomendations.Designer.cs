@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(YourRecomendations));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             spisok = new Label();
             list2 = new DataGridView();
             throwoff = new Button();
@@ -54,8 +56,25 @@
             // 
             // list2
             // 
+            list2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list2.BackgroundColor = Color.FromArgb(136, 92, 64);
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.Sienna;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            list2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             list2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle2.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle2.ForeColor = Color.Sienna;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            list2.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(list2, "list2");
             list2.Name = "list2";
             list2.ReadOnly = true;

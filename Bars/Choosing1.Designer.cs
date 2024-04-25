@@ -79,6 +79,8 @@
             list.GridColor = Color.Sienna;
             list.Name = "list";
             list.ReadOnly = true;
+            list.RowTemplate.ReadOnly = true;
+            list.CellContentClick += list_CellContentClick;
             // 
             // show
             // 

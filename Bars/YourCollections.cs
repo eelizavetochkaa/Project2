@@ -15,8 +15,6 @@ namespace ProjectTwo
 
     public partial class YourCollections : Form
     {
-
-
         public YourCollections()
         {
             InitializeComponent();
@@ -171,7 +169,6 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two5;
                 podborkiForm.ShowDialog();
                 this.Close();
-
             }
         }
 
@@ -187,7 +184,6 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two6;
                 podborkiForm.ShowDialog();
                 this.Close();
-
             }
         }
     }

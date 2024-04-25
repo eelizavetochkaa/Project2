@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Podborki));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             back = new Button();
             description2 = new Label();
             photo = new PictureBox();
@@ -72,11 +73,21 @@
             // 
             // list3
             // 
+            list3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list3.BackgroundColor = Color.FromArgb(136, 92, 64);
             list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            list3.GridColor = Color.Tan;
             resources.ApplyResources(list3, "list3");
             list3.Name = "list3";
             list3.ReadOnly = true;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle1.ForeColor = Color.Sienna;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            list3.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             // 
             // podborka
             // 

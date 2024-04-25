@@ -135,17 +135,18 @@ namespace ProjectTwo
             dislike.FlatAppearance.BorderSize = 0;
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+            LoadDataFromDatabase();
             foreach (DataGridViewColumn column in list2.Columns)
             {
                 column.Visible = false;
             }
+
             list2.Columns[1].Visible = true;
             list2.Columns[2].Visible = true;
             list2.Columns[4].Visible = true;
             list2.Columns[6].Visible = true;
             list2.Columns[7].Visible = true;
             list2.Columns[8].Visible = true;
-            LoadDataFromDatabase();
         }
 
         private void back_Click(object sender, EventArgs e)

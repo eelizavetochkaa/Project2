@@ -17,6 +17,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+using NLog;
 
 namespace Project2
 {
@@ -24,13 +25,12 @@ namespace Project2
     public partial class Choosing1 : Form
     {
         public int restaurantId;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+
         public Choosing1()
         {
             InitializeComponent();
             LoadDataFromDatabase();
-            like.Click += like_Click;
-            dislike.Click += dislike_Click;
-            list.CellMouseDoubleClick += list_CellMouseDoubleClick;
         }
 
         //работа с БД
@@ -131,24 +131,16 @@ namespace Project2
             using (var context = new CafesContext())
             {
                 var bar = context.Bars.FirstOrDefault(b => b.Id == restaurantId);
-                if (bar != null)
+                if (voteOption == 2)
                 {
-
-                    if (voteOption == 2)
-                    {
-                        MessageBox.Show("Вы поставили 👎 этой позиции");
-                    }
-                    else if (voteOption == 1)
-                    {
-                        MessageBox.Show("Вы поставили 👍 этой позиции");
-                    }
-                    bar.Mark = voteOption;
-                    context.SaveChanges();
+                    MessageBox.Show("Вы поставили 👎 этой позиции");
                 }
-                else
+                else if (voteOption == 1)
                 {
-                    MessageBox.Show("Ошибка: не найдена запись с указанным ID.");
+                    MessageBox.Show("Вы поставили 👍 этой позиции");
                 }
+                bar.Mark = voteOption;
+                context.SaveChanges();
             }
 
         }
@@ -220,6 +212,11 @@ namespace Project2
                     MessageBox.Show("Не получилось добавить в избранное. Проверьте, что вы точно дважды кликнули по строке из таблицы.");
                 }
             }
+        }
+
+        private void list_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

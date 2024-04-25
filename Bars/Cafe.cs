@@ -20,20 +20,25 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using System;
 using System.Globalization;
 using System.Windows.Forms;
+using NLog;
 
 namespace DZ
 {
     public partial class Cafe : Form
     {
-
+        private bool loaded = false;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public Cafe()
         {
+            //Bars.Properties.Settings.Default.Upgrade();
             if (!String.IsNullOrEmpty(Settings.Default.Language))
             {
                 System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo(Settings.Default.Language);
                 System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Settings.Default.Language);
             }
             InitializeComponent();
+            loaded = true;
+            logger.Info("Loaded");
         }
 
         private void start_Click(object sender, EventArgs e)
@@ -51,6 +56,7 @@ namespace DZ
                 System.Globalization.CultureInfo.GetCultureInfo("ru-RU"),
                 System.Globalization.CultureInfo.GetCultureInfo("en-GB"),
             };
+
             comboBox1.DisplayMember = "NativeName";
             comboBox1.ValueMember = "Name";
             if (!String.IsNullOrEmpty(Settings.Default.Language))
@@ -63,6 +69,17 @@ namespace DZ
         {
             Settings.Default.Language = comboBox1.SelectedValue.ToString();
             Settings.Default.Save();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            logger.Info($"Language changed to {comboBox1.SelectedItem}");
+            Application.Restart();
         }
     }
 }

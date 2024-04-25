@@ -33,6 +33,7 @@
             description = new Label();
             start = new Button();
             comboBox1 = new ComboBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // welcome
@@ -64,12 +65,21 @@
             comboBox1.FormattingEnabled = true;
             resources.ApplyResources(comboBox1, "comboBox1");
             comboBox1.Name = "comboBox1";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(button1, "button1");
+            button1.Name = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Cafe
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
+            Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(start);
             Controls.Add(description);
@@ -88,5 +98,6 @@
         private Label description;
         private Button start;
         private ComboBox comboBox1;
+        private Button button1;
     }
 }

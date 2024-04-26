@@ -1,4 +1,5 @@
 ﻿using Bars;
+using NLog;
 using Project2;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace ProjectTwo
 
     public partial class YourCollections : Form
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public YourCollections()
         {
             InitializeComponent();

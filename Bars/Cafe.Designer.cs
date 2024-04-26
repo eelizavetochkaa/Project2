@@ -33,7 +33,7 @@
             description = new Label();
             start = new Button();
             comboBox1 = new ComboBox();
-            button1 = new Button();
+            change = new Button();
             SuspendLayout();
             // 
             // welcome
@@ -47,12 +47,12 @@
             // 
             resources.ApplyResources(description, "description");
             description.BackColor = Color.FromArgb(136, 92, 64);
-            description.ForeColor = Color.FromArgb(255, 255, 192);
+            description.ForeColor = Color.NavajoWhite;
             description.Name = "description";
             // 
             // start
             // 
-            start.BackColor = Color.Moccasin;
+            start.BackColor = Color.NavajoWhite;
             resources.ApplyResources(start, "start");
             start.ForeColor = Color.FromArgb(132, 94, 72);
             start.Name = "start";
@@ -61,25 +61,29 @@
             // 
             // comboBox1
             // 
+            comboBox1.BackColor = Color.NavajoWhite;
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.FormattingEnabled = true;
             resources.ApplyResources(comboBox1, "comboBox1");
+            comboBox1.ForeColor = Color.Sienna;
+            comboBox1.FormattingEnabled = true;
             comboBox1.Name = "comboBox1";
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // button1
+            // change
             // 
-            resources.ApplyResources(button1, "button1");
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            change.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(change, "change");
+            change.ForeColor = Color.Sienna;
+            change.Name = "change";
+            change.UseVisualStyleBackColor = false;
+            change.Click += button1_Click;
             // 
             // Cafe
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
-            Controls.Add(button1);
+            Controls.Add(change);
             Controls.Add(comboBox1);
             Controls.Add(start);
             Controls.Add(description);
@@ -98,6 +102,6 @@
         private Label description;
         private Button start;
         private ComboBox comboBox1;
-        private Button button1;
+        private Button change;
     }
 }

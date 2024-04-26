@@ -12,11 +12,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 
 namespace ProjectTwo
 {
     public partial class ChoosingCollection : Form
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public DataGridViewRow SelectedRow { get; set; }
         public ChoosingCollection()
         {

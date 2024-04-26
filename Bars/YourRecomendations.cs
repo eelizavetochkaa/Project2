@@ -25,7 +25,6 @@ namespace ProjectTwo
         {
             dbContext = new CafesContext();
             InitializeComponent();
-
         }
 
         private void LoadDataFromDatabase()

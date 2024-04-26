@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Podborki));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             back = new Button();
             description2 = new Label();
             photo = new PictureBox();
@@ -75,11 +77,6 @@
             // 
             list3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list3.BackgroundColor = Color.FromArgb(136, 92, 64);
-            list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            list3.GridColor = Color.Tan;
-            resources.ApplyResources(list3, "list3");
-            list3.Name = "list3";
-            list3.ReadOnly = true;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
             dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
@@ -87,7 +84,24 @@
             dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            list3.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            list3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            list3.GridColor = Color.Tan;
+            resources.ApplyResources(list3, "list3");
+            list3.Name = "list3";
+            list3.ReadOnly = true;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle2.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle2.ForeColor = Color.Sienna;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            list3.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle3.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            dataGridViewCellStyle3.SelectionBackColor = Color.Tan;
+            list3.RowsDefaultCellStyle = dataGridViewCellStyle3;
             // 
             // podborka
             // 
@@ -118,6 +132,7 @@
             Controls.Add(list3);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Podborki";
+            Load += Podborki_Load;
             ((System.ComponentModel.ISupportInitialize)photo).EndInit();
             ((System.ComponentModel.ISupportInitialize)list3).EndInit();
             ResumeLayout(false);

@@ -154,16 +154,13 @@
     <value>10</value>
   </data>
   <data name="list.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>40</value>
+    <value>50</value>
   </data>
   <data name="list.Location" type="System.Drawing.Point, System.Drawing">
     <value>105, 144</value>
   </data>
   <data name="list.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>300, 0</value>
-  </data>
-  <data name="list.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
+    <value>500, 0</value>
   </data>
   <data name="list.Size" type="System.Drawing.Size, System.Drawing">
     <value>729, 507</value>

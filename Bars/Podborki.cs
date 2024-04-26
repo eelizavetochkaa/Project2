@@ -1,5 +1,7 @@
-﻿using Project2;
+﻿using NLog;
+using Project2;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +15,7 @@ namespace Bars
 {
     public partial class Podborki : Form
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         private CafesContext context;
         public int restaurantId;
         public Podborki()
@@ -127,6 +130,33 @@ namespace Bars
             {
                 MessageBox.Show("Подборку избранное удалить нельзя!");
             }
+        }
+
+        private void Podborki_Load(object sender, EventArgs e)
+        {
+            LoadDataFromDatabase();
+
+            try
+            {
+                foreach (DataGridViewColumn column in list3.Columns)
+                {
+                    column.Visible = false;
+                }
+
+                list3.Columns[1].Visible = true;
+                list3.Columns[2].Visible = true;
+                list3.Columns[4].Visible = true;
+                list3.Columns[6].Visible = true;
+                list3.Columns[7].Visible = true;
+                list3.Columns[8].Visible = true;
+                logger.Info("User tried to load Podborki form");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при загрузке {ex}");
+                logger.Error("The error with trying to load this form");
+            }
+            logger.Info("The Podborki form was loaded");
         }
     }
 }

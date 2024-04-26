@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BarsTests\**" />
+    <EmbeddedResource Remove="BarsTests\**" />
+    <None Remove="BarsTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="C:\Users\Huawei\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
   </ItemGroup>
 
@@ -72,10 +78,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="BarsTests\" />
   </ItemGroup>
 
 </Project>

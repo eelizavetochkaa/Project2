@@ -78,6 +78,7 @@
             resources.ApplyResources(list2, "list2");
             list2.Name = "list2";
             list2.ReadOnly = true;
+            list2.CellMouseDoubleClick += list2_CellMouseDoubleClick_1;
             // 
             // throwoff
             // 

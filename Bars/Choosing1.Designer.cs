@@ -80,7 +80,7 @@
             list.Name = "list";
             list.ReadOnly = true;
             list.RowTemplate.ReadOnly = true;
-            list.CellContentClick += list_CellContentClick;
+            list.CellMouseDoubleClick += list_CellMouseDoubleClick_1;
             // 
             // show
             // 

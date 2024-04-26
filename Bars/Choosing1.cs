@@ -60,7 +60,7 @@ namespace Project2
             return string.Empty;
         }
         //база данных при двойном щелчке по строке
-        private void list_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void list_CellMouseDoubleClick_1(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
@@ -212,11 +212,6 @@ namespace Project2
                     MessageBox.Show("Не получилось добавить в избранное. Проверьте, что вы точно дважды кликнули по строке из таблицы.");
                 }
             }
-        }
-
-        private void list_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

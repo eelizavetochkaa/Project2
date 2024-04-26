@@ -1,4 +1,5 @@
 ﻿using Bars;
+using NLog;
 using Project2;
 using System;
 using System.Collections.Generic;
@@ -17,13 +18,13 @@ namespace ProjectTwo
 
     public partial class YourRecomendations : Form
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         private CafesContext dbContext;
         public int restaurantId2;
         public YourRecomendations()
         {
-            InitializeComponent();
             dbContext = new CafesContext();
-            list2.CellMouseDoubleClick += list2_CellMouseDoubleClick;
+            InitializeComponent();
 
         }
 
@@ -100,10 +101,14 @@ namespace ProjectTwo
                         list2.DataSource = barsToDisplay;
                         list2.Refresh();
                     }
+
+                    logger.Info("The connection with database was succesful");
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
+                    logger.Info("The connection with database wasn't succesful");
+                    logger.Error( "The connection with database wan't established");
                 }
             }
         }
@@ -118,11 +123,13 @@ namespace ProjectTwo
                     this.Hide();
                     choosing.ShowDialog();
                     this.Close();
+                    logger.Info("User tried to add position to the matching");
                 }
             }
             else
             {
                 MessageBox.Show("Пожалуйста, выберите строку в DataGridView.");
+                logger.Warn("User tried to add position to the matching but didn't choose the line");
             }
 
         }
@@ -135,7 +142,9 @@ namespace ProjectTwo
             dislike.FlatAppearance.BorderSize = 0;
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+
             LoadDataFromDatabase();
+
             foreach (DataGridViewColumn column in list2.Columns)
             {
                 column.Visible = false;
@@ -147,6 +156,7 @@ namespace ProjectTwo
             list2.Columns[6].Visible = true;
             list2.Columns[7].Visible = true;
             list2.Columns[8].Visible = true;
+            logger.Info("The YourRecomendation form was loaded");
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -155,6 +165,7 @@ namespace ProjectTwo
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();
+            logger.Info("User came back to the Choosing1 form");
         }
 
         private void throwoff_Click(object sender, EventArgs e)
@@ -172,7 +183,7 @@ namespace ProjectTwo
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();
-
+            logger.Info("User threw off all preferences and came back to the Choosing1 form");
         }
         private void addtofav_CheckedChanged(object sender, EventArgs e)
         {
@@ -229,5 +240,41 @@ namespace ProjectTwo
             }
         }
 
+        private void list2_CellMouseDoubleClick_1(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                int columnIndex1 = 1;
+                int columnIndex2 = 2;
+                int columnIndex4 = 4;
+                int columnIndex5 = 5;
+                restaurantId2 = Convert.ToInt32(list2.Rows[e.RowIndex].Cells[0].Value);
+
+                string column1 = list2.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
+                string column2 = list2.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
+                string column4 = list2.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
+                string column5 = list2.Rows[e.RowIndex].Cells[columnIndex5].Value?.ToString();
+
+                name.Text = column1;
+                description2.Text = column2;
+                using (var context = new CafesContext())
+                {
+                    var entity = context.Bars.Find(restaurantId2);
+
+                    if (entity != null && entity.Photo != null)
+                    {
+                        using (MemoryStream ms = new MemoryStream(entity.Photo))
+                        {
+                            var image = Image.FromStream(ms);
+                            photo.Image = image;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Изображение не найдено или недоступно.");
+                    }
+                }
+            }
+        }
     }
 }

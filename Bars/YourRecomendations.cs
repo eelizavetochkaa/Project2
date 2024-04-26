@@ -145,17 +145,26 @@ namespace ProjectTwo
 
             LoadDataFromDatabase();
 
-            foreach (DataGridViewColumn column in list2.Columns)
+            try
             {
-                column.Visible = false;
-            }
+                foreach (DataGridViewColumn column in list2.Columns)
+                {
+                    column.Visible = false;
+                }
 
-            list2.Columns[1].Visible = true;
-            list2.Columns[2].Visible = true;
-            list2.Columns[4].Visible = true;
-            list2.Columns[6].Visible = true;
-            list2.Columns[7].Visible = true;
-            list2.Columns[8].Visible = true;
+                list2.Columns[1].Visible = true;
+                list2.Columns[2].Visible = true;
+                list2.Columns[4].Visible = true;
+                list2.Columns[6].Visible = true;
+                list2.Columns[7].Visible = true;
+                list2.Columns[8].Visible = true;
+                logger.Info("User tried to load this form");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при загрузке {ex}");
+                logger.Error("The error with trying to load this form");
+            }
             logger.Info("The YourRecomendation form was loaded");
         }
 
@@ -196,10 +205,12 @@ namespace ProjectTwo
                     bar.Matching = 1;
                     context.SaveChanges();
                     MessageBox.Show("Добавлено в избранное");
+                    logger.Info("User added the position to the favourites");
                 }
                 else
                 {
                     MessageBox.Show("Не получилось доавбить в избранное. Проверьте, что точно дважды кликнули по строке из таблицы");
+                    logger.Warn("The adding to a favourites wasn't succesful");
                 }
             }
         }

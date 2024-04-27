@@ -42,10 +42,12 @@ namespace Project2
                 {
                     var bars = context.Bars.Where(b => b.Type == "для выбора").ToList();
                     list.DataSource = bars;
+                    logger.Info("Data from Database was loaded");
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
+                    logger.Error($"Data from database wasn't loaded because of next exception: {ex}");
                 }
             }
         }
@@ -89,13 +91,16 @@ namespace Project2
                         {
                             Image image = Image.FromStream(ms);
                             photo.Image = image;
+                            logger.Info("The image was loaded");
                         }
                     }
                     else
                     {
                         MessageBox.Show("Изображение не найдено или недоступно.");
+                        logger.Warn("The image wasn't loaded");
                     }
                 }
+                logger.Info("The information about chosen positions was shown");
 
             }
         }
@@ -106,10 +111,12 @@ namespace Project2
             {
                 restaurantId = Convert.ToInt32(list.SelectedRows[0].Cells[0].Value);
                 UpdateMark(restaurantId, 2);
+                logger.Info("User disliked the chosen position");
             }
             else
             {
-                MessageBox.Show("Ошибка: не выбрана строка.");
+                MessageBox.Show("Ошибка: не выбрана строка");
+                logger.Warn("User tried to dislike the position but didn't choose the line");
             }
         }
 
@@ -119,10 +126,12 @@ namespace Project2
             {
                 restaurantId = Convert.ToInt32(list.SelectedRows[0].Cells[0].Value);
                 UpdateMark(restaurantId, 1);
+                logger.Info("User liked the chosen position");
             }
             else
             {
                 MessageBox.Show("Ошибка: не выбрана строка.");
+                logger.Warn("User tried to like the position but didn't choose the line");
             }
         }
 
@@ -134,13 +143,17 @@ namespace Project2
                 if (voteOption == 2)
                 {
                     MessageBox.Show("Вы поставили 👎 этой позиции");
+                    logger.Info("User saw message about his mark");
                 }
                 else if (voteOption == 1)
                 {
                     MessageBox.Show("Вы поставили 👍 этой позиции");
+                    logger.Info("User saw message about his mark");
                 }
                 bar.Mark = voteOption;
                 context.SaveChanges();
+
+                logger.Info("The information in database was updated");
             }
 
         }
@@ -164,6 +177,7 @@ namespace Project2
             list.Columns[6].Visible = true;
             list.Columns[7].Visible = true;
             list.Columns[8].Visible = true;
+            logger.Info("The Choosing1 form was loaded");
         }
         private void back_Click_1(object sender, EventArgs e)
         {
@@ -171,6 +185,7 @@ namespace Project2
             this.Hide();
             cafe.ShowDialog();
             this.Close();
+            logger.Info("User opened last Cafe form and click to back button");
         }
         private void show_Click_1(object sender, EventArgs e)
         {
@@ -178,6 +193,7 @@ namespace Project2
             this.Hide();
             recomends.ShowDialog();
             this.Close();
+            logger.Info("User opened next YourRecomendations form and click to show button");
         }
 
         private void yours_Click_1(object sender, EventArgs e)
@@ -186,6 +202,7 @@ namespace Project2
             this.Hide();
             colls.ShowDialog();
             this.Close();
+            logger.Info("User opened next YourCollections form and click to yours button");
         }
 
         private void addtofav_CheckedChanged(object sender, EventArgs e)
@@ -206,10 +223,12 @@ namespace Project2
                     context.SaveChanges();
 
                     MessageBox.Show("Добавлено в избранное");
+                    logger.Info("User add the position to the favourites");
                 }
                 else
                 {
                     MessageBox.Show("Не получилось добавить в избранное. Проверьте, что вы точно дважды кликнули по строке из таблицы.");
+                    logger.Warn("User tried to add the position to the favourites but didnt' choose the line");
                 }
             }
         }

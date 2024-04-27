@@ -32,6 +32,7 @@ namespace Bars
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();
+            logger.Info("User opened last Choosing1 form and clicked to back button");
         }
 
         private void LoadDataFromDatabase()
@@ -50,6 +51,8 @@ namespace Bars
                             select b).ToList();
 
                 list3.DataSource = bars;
+
+                logger.Info("The informaton was loaded from database");
             }
         }
         private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -78,18 +81,21 @@ namespace Bars
 
                     if (entity != null && entity.Photo != null)
                     {
-                        using (MemoryStream ms = new MemoryStream(entity.Photo))
+                        using (var ms = new MemoryStream(entity.Photo))
                         {
                             var image = Image.FromStream(ms);
                             photo.Image = image;
                         }
+                        logger.Info("The image was loaded ");
                     }
                     else
                     {
-                        MessageBox.Show("Изображение не найдено или недоступно.");
+                        MessageBox.Show("Изображение не найдено или недоступно");
+                        logger.Info("The image wasn't loaded");
                     }
                 }
 
+                logger.Info("The information about chosen position was shown");
             }
         }
 
@@ -117,21 +123,29 @@ namespace Bars
                             this.Hide();
                             choose1Form.ShowDialog();
                             this.Close();
+
+                            logger.Info("Opened matching was deleted");
                         }
                         else
                         {
                             MessageBox.Show("Подборка не найдена в базе данных");
+
+                            logger.Warn("Opened matching wasn't found in database");
                         }
                     }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show($"Произошла ошибка: {ex.Message}");
+
+                    logger.Error($"Deleting error: {ex}");
                 }
             }
             else
             {
                 MessageBox.Show("Подборку избранное удалить нельзя!");
+
+                logger.Warn("User tried to delete favourites");
             }
         }
 

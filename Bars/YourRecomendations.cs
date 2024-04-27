@@ -259,6 +259,7 @@ namespace ProjectTwo
                         logger.Warn("The image wasn't loaded");
                     }
                 }
+                logger.Info("The information about chosen position was shown");
             }
         }
     }

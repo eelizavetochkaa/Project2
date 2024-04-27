@@ -26,19 +26,15 @@ namespace DZ
 {
     public partial class Cafe : Form
     {
-        private bool loaded = false;
         private static Logger logger = LogManager.GetCurrentClassLogger();
         public Cafe()
         {
-            //Bars.Properties.Settings.Default.Upgrade();
             if (!String.IsNullOrEmpty(Settings.Default.Language))
             {
                 System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo(Settings.Default.Language);
                 System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Settings.Default.Language);
             }
             InitializeComponent();
-            loaded = true;
-            logger.Info("Loaded");
         }
 
         private void start_Click(object sender, EventArgs e)
@@ -47,6 +43,7 @@ namespace DZ
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();
+            logger.Info("The start button to open the next form was clicked");
 
         }
         private void Cafe_Load(object sender, EventArgs e)
@@ -63,12 +60,14 @@ namespace DZ
             {
                 comboBox1.SelectedValue = Settings.Default.Language;
             }
+            logger.Info("The Cafe form was opened");
         }
 
         private void Cafe_FormClosing(object sender, FormClosingEventArgs e)
         {
             Settings.Default.Language = comboBox1.SelectedValue.ToString();
             Settings.Default.Save();
+            logger.Info("The Cafe form was closed");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

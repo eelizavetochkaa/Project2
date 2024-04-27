@@ -25,7 +25,7 @@ namespace ProjectTwo
 
         private void back_Click(object sender, EventArgs e)
         {
-            YourCollections colls = new YourCollections();
+            var colls = new YourCollections();
             this.Hide();
             colls.ShowDialog();
             this.Close();

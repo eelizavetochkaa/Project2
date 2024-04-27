@@ -27,6 +27,7 @@ namespace ProjectTwo
         {
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+            logger.Info("The YourCollections form was loaded");
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -35,6 +36,7 @@ namespace ProjectTwo
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();
+            logger.Info("User clicked back button and came back to Choosing1 form");
         }
 
         private void add2_Click(object sender, EventArgs e)
@@ -43,6 +45,7 @@ namespace ProjectTwo
             this.Hide();
             addcolls.ShowDialog();
             this.Close();
+            logger.Info("User clicked add2 button and AddCollections form was opened");
         }
 
 
@@ -53,12 +56,13 @@ namespace ProjectTwo
             {
 
                 var favs = context.Bars.Where(entity => entity.Matching == 1).ToList();
-                Podborki podborkiForm = new Podborki();
+                var podborkiForm = new Podborki();
                 this.Hide();
                 podborkiForm.podborka.Text = "Избранное";
                 podborkiForm.list3.DataSource = favs;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked favs button and Podborki form was opened");
             }
         }
         private void UpdateButtonText()
@@ -69,6 +73,7 @@ namespace ProjectTwo
                 if (matching != null)
                 {
                     two.Text = matching.Title;
+                    logger.Info("User clicked favs button and Podborki form was opened");
                 }
                 else
                 {
@@ -124,6 +129,7 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two2;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked two button and Podborki form was opened");
             }
         }
 
@@ -139,6 +145,7 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two3;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked three button and Podborki form was opened");
 
             }
         }
@@ -155,6 +162,7 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two4;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked four button and Podborki form was opened");
 
             }
         }
@@ -171,6 +179,7 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two5;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked five button and Podborki form was opened");
             }
         }
 
@@ -186,6 +195,7 @@ namespace ProjectTwo
                 podborkiForm.list3.DataSource = two6;
                 podborkiForm.ShowDialog();
                 this.Close();
+                logger.Info("User clicked six button and Podborki form was opened");
             }
         }
     }

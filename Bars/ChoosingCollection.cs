@@ -30,6 +30,7 @@ namespace ProjectTwo
         {
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
+            logger.Info("The Choosing1 form was loaded");
         }
 
         private void back_Click(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace ProjectTwo
             this.Hide();
             recs.ShowDialog();
             this.Close();
+            logger.Info("User clicked back button and came back to YourRecomendation form");
         }
 
         private void favs_Click(object sender, EventArgs e)
@@ -57,16 +59,20 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в избранное");
+                        logger.Info("User added the position to the favourites");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+
+                        logger.Error("The error in trying add the position to the favourites");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the favourites but didn't choose the line");
             }
         }
 
@@ -83,6 +89,8 @@ namespace ProjectTwo
                 if (matching2 != null)
                 {
                     two1.Text = matching2.Title;
+
+                    logger.Info("The label was renamed");
                 }
                 else
                 {
@@ -91,6 +99,7 @@ namespace ProjectTwo
                 if (matching3 != null)
                 {
                     three1.Text = matching3.Title;
+                    logger.Info("The label was renamed");
                 }
                 else
                 {
@@ -99,6 +108,7 @@ namespace ProjectTwo
                 if (matching4 != null)
                 {
                     four1.Text = matching4.Title;
+                    logger.Info("The label was renamed");
                 }
                 else
                 {
@@ -107,6 +117,7 @@ namespace ProjectTwo
                 if (matching5 != null)
                 {
                     five1.Text = matching5.Title;
+                    logger.Info("The label was renamed");
                 }
                 else
                 {
@@ -115,6 +126,7 @@ namespace ProjectTwo
                 if (matching6 != null)
                 {
                     six1.Text = matching6.Title;
+                    logger.Info("The label was renamed");
                 }
                 else
                 {
@@ -140,17 +152,21 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в подборку");
+                        logger.Info("User added the position to the first matching");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                        logger.Error("The error in saving changes");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the matching but it wasn't succesful");
             }
+            logger.Info("User clicked to the two1 button");
 
         }
 
@@ -171,17 +187,21 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в подборку");
+                        logger.Info("User added the position to the second matching");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                        logger.Error("The error in saving changes");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the matching but it wasn't succesful");
             }
+            logger.Info("User clicked to the three1 button");
         }
 
         private void four1_Click(object sender, EventArgs e)
@@ -201,17 +221,21 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в подборку");
+                        logger.Info("User added the position to the third matching");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                        logger.Error("The error in saving changes");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the matching but it wasn't succesful");
             }
+            logger.Info("User clicked to the four1 button");
         }
         private void five_Click(object sender, EventArgs e)
         {
@@ -230,17 +254,21 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в подборку");
+                        logger.Info("User added the position to the fourth matching");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                        logger.Error("The error in saving changes");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the matching but it wasn't succesful");
             }
+            logger.Info("User clicked to the five1 button");
         }
         private void six1_Click(object sender, EventArgs e)
         {
@@ -259,17 +287,22 @@ namespace ProjectTwo
                         context.SaveChanges();
 
                         MessageBox.Show("Вы успешно добавили позицию в подборку");
+
+                        logger.Info("User added the position to the fifth matching");
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Ошибка при сохранении изменений: {ex.Message}");
+                        logger.Error("The error in saving changes");
                     }
                 }
             }
             else
             {
                 MessageBox.Show("Нет выбранной строки для обновления.");
+                logger.Warn("User tried to add the position to the matching but it wasn't succesful");
             }
+            logger.Info("User clicked to the six1 button");
         }
         
     }

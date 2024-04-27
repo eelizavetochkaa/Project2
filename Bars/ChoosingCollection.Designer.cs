@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChoosingCollection));
             choose2 = new Label();
             tip = new Label();
-            back = new Button();
+            back2 = new Button();
             favs1 = new Button();
             two1 = new Button();
             three1 = new Button();
@@ -54,19 +54,19 @@
             tip.ForeColor = Color.FromArgb(136, 92, 64);
             tip.Name = "tip";
             // 
-            // back
+            // back2
             // 
-            resources.ApplyResources(back, "back");
-            back.BackColor = Color.Transparent;
-            back.ForeColor = Color.NavajoWhite;
-            back.Name = "back";
-            back.UseVisualStyleBackColor = false;
-            back.Click += back_Click;
+            back2.BackColor = Color.Transparent;
+            resources.ApplyResources(back2, "back2");
+            back2.ForeColor = Color.NavajoWhite;
+            back2.Name = "back2";
+            back2.UseVisualStyleBackColor = false;
+            back2.Click += back2_Click;
             // 
             // favs1
             // 
-            resources.ApplyResources(favs1, "favs1");
             favs1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(favs1, "favs1");
             favs1.ForeColor = Color.NavajoWhite;
             favs1.Name = "favs1";
             favs1.UseVisualStyleBackColor = false;
@@ -74,8 +74,8 @@
             // 
             // two1
             // 
-            resources.ApplyResources(two1, "two1");
             two1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(two1, "two1");
             two1.ForeColor = Color.NavajoWhite;
             two1.Name = "two1";
             two1.UseVisualStyleBackColor = false;
@@ -83,8 +83,8 @@
             // 
             // three1
             // 
-            resources.ApplyResources(three1, "three1");
             three1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(three1, "three1");
             three1.ForeColor = Color.NavajoWhite;
             three1.Name = "three1";
             three1.UseVisualStyleBackColor = false;
@@ -92,8 +92,8 @@
             // 
             // four1
             // 
-            resources.ApplyResources(four1, "four1");
             four1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(four1, "four1");
             four1.ForeColor = Color.NavajoWhite;
             four1.Name = "four1";
             four1.UseVisualStyleBackColor = false;
@@ -101,8 +101,8 @@
             // 
             // five1
             // 
-            resources.ApplyResources(five1, "five1");
             five1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(five1, "five1");
             five1.ForeColor = Color.NavajoWhite;
             five1.Name = "five1";
             five1.UseVisualStyleBackColor = false;
@@ -110,8 +110,8 @@
             // 
             // six1
             // 
-            resources.ApplyResources(six1, "six1");
             six1.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(six1, "six1");
             six1.ForeColor = Color.NavajoWhite;
             six1.Name = "six1";
             six1.UseVisualStyleBackColor = false;
@@ -126,7 +126,7 @@
             Controls.Add(four1);
             Controls.Add(three1);
             Controls.Add(two1);
-            Controls.Add(back);
+            Controls.Add(back2);
             Controls.Add(favs1);
             Controls.Add(tip);
             Controls.Add(choose2);
@@ -141,7 +141,7 @@
 
         private Label choose2;
         private Label tip;
-        private Button back;
+        private Button back2;
         private Button favs1;
         private Button two1;
         private Button three1;

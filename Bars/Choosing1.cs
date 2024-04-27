@@ -179,7 +179,7 @@ namespace Project2
             list.Columns[8].Visible = true;
             logger.Info("The Choosing1 form was loaded");
         }
-        private void back_Click_1(object sender, EventArgs e)
+        public void back_Click_1(object sender, EventArgs e)
         {
             var cafe = new Cafe();
             this.Hide();
@@ -187,7 +187,7 @@ namespace Project2
             this.Close();
             logger.Info("User opened last Cafe form and click to back button");
         }
-        private void show_Click_1(object sender, EventArgs e)
+        public void show_Click_1(object sender, EventArgs e)
         {
             var recomends = new YourRecomendations();
             this.Hide();
@@ -196,7 +196,7 @@ namespace Project2
             logger.Info("User opened next YourRecomendations form and click to show button");
         }
 
-        private void yours_Click_1(object sender, EventArgs e)
+        public void yours_Click_1(object sender, EventArgs e)
         {
             var colls = new YourCollections();
             this.Hide();

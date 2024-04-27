@@ -73,7 +73,7 @@ namespace ProjectTwo
 
                     if (cheseria != null)
                     {
-                        var syr = context.Bars.FirstOrDefault(b => b.Name == "Сыроварня ");
+                        var syr = context.Bars.FirstOrDefault(b => b.Name == "Сыроварня");
                         if (syr != null)
                         {
                             barsToDisplay.Add(syr);
@@ -141,8 +141,8 @@ namespace ProjectTwo
 
         private void YourRecomendations_Load(object sender, EventArgs e)
         {
-            back.FlatStyle = FlatStyle.Flat;
-            back.FlatAppearance.BorderSize = 0;
+            back4.FlatStyle = FlatStyle.Flat;
+            back4.FlatAppearance.BorderSize = 0;
 
             LoadDataFromDatabase();
 
@@ -172,9 +172,9 @@ namespace ProjectTwo
             logger.Info("The YourRecomendation form was loaded");
         }
 
-        private void back_Click(object sender, EventArgs e)
+        public void back4_Click(object sender, EventArgs e)
         {
-            Choosing1 choose1Form = new Choosing1();
+            var choose1Form = new Choosing1();
             this.Hide();
             choose1Form.ShowDialog();
             this.Close();

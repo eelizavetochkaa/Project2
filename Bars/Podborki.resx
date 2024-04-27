@@ -118,32 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="back.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="back3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Black, 25.2pt, style=Bold</value>
   </data>
-  <data name="back.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="back3.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 18</value>
   </data>
-  <data name="back.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="back3.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 78</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="back.TabIndex" type="System.Int32, mscorlib">
+  <data name="back3.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
-  <data name="back.Text" xml:space="preserve">
+  <data name="back3.Text" xml:space="preserve">
     <value>⇐</value>
   </data>
-  <data name="&gt;&gt;back.Name" xml:space="preserve">
-    <value>back</value>
+  <data name="&gt;&gt;back3.Name" xml:space="preserve">
+    <value>back3</value>
   </data>
-  <data name="&gt;&gt;back.Type" xml:space="preserve">
+  <data name="&gt;&gt;back3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;back.Parent" xml:space="preserve">
+  <data name="&gt;&gt;back3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;back.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;back3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="description2.Font" type="System.Drawing.Font, System.Drawing">

@@ -28,12 +28,12 @@ namespace ProjectTwo
 
         private void ChoosingCollection_Load(object sender, EventArgs e)
         {
-            back.FlatStyle = FlatStyle.Flat;
-            back.FlatAppearance.BorderSize = 0;
+            back2.FlatStyle = FlatStyle.Flat;
+            back2.FlatAppearance.BorderSize = 0;
             logger.Info("The Choosing1 form was loaded");
         }
 
-        private void back_Click(object sender, EventArgs e)
+        private void back2_Click(object sender, EventArgs e)
         {
             var recs = new YourRecomendations();
             this.Hide();

@@ -37,7 +37,7 @@ namespace DZ
             InitializeComponent();
         }
 
-        private void start_Click(object sender, EventArgs e)
+        public void start_Click(object sender, EventArgs e)
         {
             var choose1Form = new Choosing1();
             this.Hide();

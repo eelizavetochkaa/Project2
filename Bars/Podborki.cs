@@ -26,7 +26,7 @@ namespace Bars
             context = new CafesContext();
         }
 
-        private void back_Click(object sender, EventArgs e)
+        private void back3_Click(object sender, EventArgs e)
         {
             var choose1Form = new Choosing1();
             this.Hide();

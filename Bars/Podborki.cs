@@ -38,15 +38,18 @@ namespace Bars
         {
             using (var context = new CafesContext())
             {
-                try
+                string matchingTitle = podborka.Text;
+                var matching = context.Matchings.FirstOrDefault(m => m.Title == matchingTitle);
+                if (matching != null)
                 {
-                    var bars = context.Bars.Where(b => b.Matching == 1).ToList();
-                    list3.DataSource = bars;
+                    restaurantId = matching.Id;
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
-                }
+                var bars = (from b in context.Bars
+                            join m in context.Matchings on b.Matching equals m.Id
+                            where m.Title == matchingTitle
+                            select b).ToList();
+
+                list3.DataSource = bars;
             }
         }
         private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)

@@ -33,7 +33,7 @@ namespace ProjectTwo
         }
 
         private void createcoll_Click(object sender, EventArgs e)
-        {        
+        {
             string collectionTitle = NameColl.Text;
 
             if (!string.IsNullOrWhiteSpace(collectionTitle))

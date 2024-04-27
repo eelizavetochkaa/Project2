@@ -75,19 +75,19 @@ namespace ProjectTwo
         {
             using (var context = new CafesContext())
             {
-                var matching = context.Matchings.FirstOrDefault(m => m.Id == 2);
-                if (matching != null)
+                var matching2 = context.Matchings.FirstOrDefault(m => m.Id == 2);
+                var matching3 = context.Matchings.FirstOrDefault(m => m.Id == 3);
+                var matching4 = context.Matchings.FirstOrDefault(m => m.Id == 4);
+                var matching5 = context.Matchings.FirstOrDefault(m => m.Id == 5);
+                var matching6 = context.Matchings.FirstOrDefault(m => m.Id == 6);
+                if (matching2 != null)
                 {
-                    two1.Text = matching.Title;
+                    two1.Text = matching2.Title;
                 }
                 else
                 {
                     two1.Text = "";
                 }
-                var matching3 = context.Matchings.FirstOrDefault(m => m.Id == 3);
-                var matching4 = context.Matchings.FirstOrDefault(m => m.Id == 4);
-                var matching5 = context.Matchings.FirstOrDefault(m => m.Id == 5);
-                var matching6 = context.Matchings.FirstOrDefault(m => m.Id == 6);
                 if (matching3 != null)
                 {
                     three1.Text = matching3.Title;

@@ -218,43 +218,7 @@ namespace ProjectTwo
                 else
                 {
                     MessageBox.Show("Не получилось доавбить в избранное. Проверьте, что точно дважды кликнули по строке из таблицы");
-                    logger.Warn("The adding to a favourites wasn't succesful");
-                }
-            }
-        }
-        private void list2_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-            {
-                int columnIndex1 = 1;
-                int columnIndex2 = 2;
-                int columnIndex4 = 4;
-                int columnIndex5 = 5;
-                restaurantId2 = Convert.ToInt32(list2.Rows[e.RowIndex].Cells[0].Value);
-
-                string column1 = list2.Rows[e.RowIndex].Cells[columnIndex1].Value?.ToString();
-                string column2 = list2.Rows[e.RowIndex].Cells[columnIndex2].Value?.ToString();
-                string column4 = list2.Rows[e.RowIndex].Cells[columnIndex4].Value?.ToString();
-                string column5 = list2.Rows[e.RowIndex].Cells[columnIndex5].Value?.ToString();
-
-                name.Text = column1;
-                description2.Text = column2;
-                using (var context = new CafesContext())
-                {
-                    var entity = context.Bars.Find(restaurantId2);
-
-                    if (entity != null && entity.Photo != null)
-                    {
-                        using (MemoryStream ms = new MemoryStream(entity.Photo))
-                        {
-                            var image = Image.FromStream(ms);
-                            photo.Image = image;
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Изображение не найдено или недоступно.");
-                    }
+                    logger.Warn("The adding to favourites wasn't succesful");
                 }
             }
         }
@@ -282,15 +246,17 @@ namespace ProjectTwo
 
                     if (entity != null && entity.Photo != null)
                     {
-                        using (MemoryStream ms = new MemoryStream(entity.Photo))
+                        using (var ms = new MemoryStream(entity.Photo))
                         {
                             var image = Image.FromStream(ms);
                             photo.Image = image;
+                            logger.Info("The image was loaded");
                         }
                     }
                     else
                     {
                         MessageBox.Show("Изображение не найдено или недоступно.");
+                        logger.Warn("The image wasn't loaded");
                     }
                 }
             }

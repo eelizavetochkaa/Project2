@@ -42,7 +42,7 @@ namespace ProjectTwo
             var addcolls = new AddCollections();
             this.Hide();
             addcolls.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
 

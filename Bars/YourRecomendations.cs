@@ -2,6 +2,7 @@
 using NLog;
 using Project2;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,7 +38,7 @@ namespace ProjectTwo
                     var sky8 = context.Bars.FirstOrDefault(b => b.Name == "Sky8" && b.Mark == 1);
                     var moremore = context.Bars.FirstOrDefault(b => b.Name == "More&More" && b.Mark == 1);
 
-                    var cheseria = context.Bars.FirstOrDefault(b => b.Name == "Cheseria" && b.Mark == 1);
+                    var cheseria = context.Bars.FirstOrDefault(b => b.Name == "Cheeseria" && b.Mark == 1);
                     var saltbar = context.Bars.FirstOrDefault(b => b.Name == "Соль" && b.Mark == 1);
                     var friendsbar = context.Bars.FirstOrDefault(b => b.Name == "Friends" && b.Mark == 1);
 
@@ -100,6 +101,11 @@ namespace ProjectTwo
                         list2.DataSource = barsToDisplay;
                         list2.Refresh();
                     }
+                    else
+                    {
+                        list2.DataSource = null;
+                        list2.Refresh();
+                    }
 
                     logger.Info("The connection with database was succesful");
                 }
@@ -146,17 +152,20 @@ namespace ProjectTwo
 
             try
             {
-                foreach (DataGridViewColumn column in list2.Columns)
+                if (list2.DataSource != null && ((IList)list2.DataSource).Count > 0)
                 {
-                    column.Visible = false;
-                }
+                    foreach (DataGridViewColumn column in list2.Columns)
+                    {
+                        column.Visible = false;
+                    }
 
-                list2.Columns[1].Visible = true;
-                list2.Columns[2].Visible = true;
-                list2.Columns[4].Visible = true;
-                list2.Columns[6].Visible = true;
-                list2.Columns[7].Visible = true;
-                list2.Columns[8].Visible = true;
+                    list2.Columns[1].Visible = true;
+                    list2.Columns[2].Visible = true;
+                    list2.Columns[4].Visible = true;
+                    list2.Columns[6].Visible = true;
+                    list2.Columns[7].Visible = true;
+                    list2.Columns[8].Visible = true;
+                }
                 logger.Info("User tried to load this form");
             }
             catch (Exception ex)
@@ -181,7 +190,7 @@ namespace ProjectTwo
             var items = dbContext.Bars.ToList();
             foreach (var item in items)
             {
-                item.Mark = null;
+                item.Mark = 0;
             }
 
             dbContext.SaveChanges();

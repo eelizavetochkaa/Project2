@@ -38,9 +38,6 @@
             name = new Label();
             photo = new PictureBox();
             description2 = new Label();
-            mark = new Label();
-            dislike = new Button();
-            like = new Button();
             addtofav = new CheckBox();
             back = new Button();
             ((System.ComponentModel.ISupportInitialize)list2).BeginInit();
@@ -119,31 +116,6 @@
             description2.ForeColor = Color.FromArgb(136, 92, 64);
             description2.Name = "description2";
             // 
-            // mark
-            // 
-            mark.AllowDrop = true;
-            mark.AutoEllipsis = true;
-            resources.ApplyResources(mark, "mark");
-            mark.BackColor = Color.FromArgb(136, 92, 64);
-            mark.ForeColor = Color.Moccasin;
-            mark.Name = "mark";
-            // 
-            // dislike
-            // 
-            dislike.BackColor = Color.FromArgb(136, 92, 64);
-            resources.ApplyResources(dislike, "dislike");
-            dislike.ForeColor = Color.NavajoWhite;
-            dislike.Name = "dislike";
-            dislike.UseVisualStyleBackColor = false;
-            // 
-            // like
-            // 
-            like.BackColor = Color.FromArgb(136, 92, 64);
-            resources.ApplyResources(like, "like");
-            like.ForeColor = Color.NavajoWhite;
-            like.Name = "like";
-            like.UseVisualStyleBackColor = false;
-            // 
             // addtofav
             // 
             resources.ApplyResources(addtofav, "addtofav");
@@ -168,9 +140,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(back);
             Controls.Add(addtofav);
-            Controls.Add(like);
-            Controls.Add(dislike);
-            Controls.Add(mark);
             Controls.Add(description2);
             Controls.Add(photo);
             Controls.Add(name);
@@ -196,9 +165,6 @@
         private Label name;
         private PictureBox photo;
         private Label description2;
-        private Label mark;
-        private Button dislike;
-        private Button like;
         private CheckBox addtofav;
         private Button back;
     }

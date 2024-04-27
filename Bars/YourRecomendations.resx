@@ -150,7 +150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;spisok.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>8</value>
   </data>
   <data name="list2.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 125</value>
@@ -174,7 +174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;list2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>7</value>
   </data>
   <data name="throwoff.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;throwoff.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>6</value>
   </data>
   <data name="add.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
@@ -228,7 +228,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;add.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>5</value>
   </data>
   <data name="name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -258,7 +258,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;name.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="photo.Location" type="System.Drawing.Point, System.Drawing">
     <value>900, 109</value>
@@ -283,7 +283,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;photo.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="description2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 19.800001pt</value>
@@ -292,7 +292,7 @@
     <value>900, 336</value>
   </data>
   <data name="description2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 231</value>
+    <value>437, 296</value>
   </data>
   <data name="description2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -313,93 +313,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;description2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="mark.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mark.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mark.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 19.800001pt</value>
-  </data>
-  <data name="mark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>900, 570</value>
-  </data>
-  <data name="mark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 46</value>
-  </data>
-  <data name="mark.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="mark.Text" xml:space="preserve">
-    <value>Оценкаㅤㅤㅤㅤㅤㅤㅤㅤㅤ</value>
-  </data>
-  <data name="&gt;&gt;mark.Name" xml:space="preserve">
-    <value>mark</value>
-  </data>
-  <data name="&gt;&gt;mark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mark.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mark.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="dislike.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 18pt, style=Bold</value>
-  </data>
-  <data name="dislike.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1219, 570</value>
-  </data>
-  <data name="dislike.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
-  </data>
-  <data name="dislike.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="dislike.Text" xml:space="preserve">
-    <value>👎</value>
-  </data>
-  <data name="&gt;&gt;dislike.Name" xml:space="preserve">
-    <value>dislike</value>
-  </data>
-  <data name="&gt;&gt;dislike.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dislike.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dislike.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="like.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Palatino Linotype, 18pt, style=Bold</value>
-  </data>
-  <data name="like.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1281, 570</value>
-  </data>
-  <data name="like.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
-  </data>
-  <data name="like.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="like.Text" xml:space="preserve">
-    <value>👍</value>
-  </data>
-  <data name="&gt;&gt;like.Name" xml:space="preserve">
-    <value>like</value>
-  </data>
-  <data name="&gt;&gt;like.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;like.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;like.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="addtofav.AutoSize" type="System.Boolean, mscorlib">

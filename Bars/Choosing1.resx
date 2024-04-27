@@ -291,9 +291,6 @@
   <data name="mark.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="mark.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="mark.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 19.800001pt</value>
   </data>

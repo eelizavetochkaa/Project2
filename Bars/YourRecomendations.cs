@@ -141,10 +141,6 @@ namespace ProjectTwo
 
         private void YourRecomendations_Load(object sender, EventArgs e)
         {
-            like.FlatStyle = FlatStyle.Flat;
-            like.FlatAppearance.BorderSize = 0;
-            dislike.FlatStyle = FlatStyle.Flat;
-            dislike.FlatAppearance.BorderSize = 0;
             back.FlatStyle = FlatStyle.Flat;
             back.FlatAppearance.BorderSize = 0;
 

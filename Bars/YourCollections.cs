@@ -25,12 +25,12 @@ namespace ProjectTwo
 
         private void YourCollections_Load(object sender, EventArgs e)
         {
-            back.FlatStyle = FlatStyle.Flat;
-            back.FlatAppearance.BorderSize = 0;
+            back5.FlatStyle = FlatStyle.Flat;
+            back5.FlatAppearance.BorderSize = 0;
             logger.Info("The YourCollections form was loaded");
         }
 
-        private void back_Click(object sender, EventArgs e)
+        public void back5_Click(object sender, EventArgs e)
         {
             var choose1Form = new Choosing1();
             this.Hide();

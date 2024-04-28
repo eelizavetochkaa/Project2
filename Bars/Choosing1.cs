@@ -34,7 +34,7 @@ namespace Project2
         }
 
         //работа с БД
-        private void LoadDataFromDatabase()
+        public void LoadDataFromDatabase()
         {
             using (var context = new CafesContext())
             {
@@ -135,7 +135,7 @@ namespace Project2
             }
         }
 
-        private void UpdateMark(int restaurantId, int voteOption)
+        public void UpdateMark(int restaurantId, int voteOption)
         {
             using (var context = new CafesContext())
             {

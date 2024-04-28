@@ -9,8 +9,18 @@ namespace BarsTests
     public class YourCollectionsTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void BackButtonShouldOpenChoosing1Form()
         {
+            // Arrange
+            YourCollections form = new YourCollections();
+            Choosing1 choose1Form = new Choosing1();
+
+            // Act
+            form.back5_Click(this, null);
+
+            // Assert
+            Assert.IsFalse(form.Visible);
+            Assert.IsTrue(choose1Form.Visible);
         }
     }
 }

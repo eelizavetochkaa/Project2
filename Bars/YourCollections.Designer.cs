@@ -32,7 +32,7 @@
             collections = new Label();
             add2 = new Button();
             favs = new Button();
-            back = new Button();
+            back5 = new Button();
             five = new Button();
             four = new Button();
             three = new Button();
@@ -49,8 +49,8 @@
             // 
             // add2
             // 
-            resources.ApplyResources(add2, "add2");
             add2.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(add2, "add2");
             add2.ForeColor = Color.FromArgb(136, 92, 64);
             add2.Name = "add2";
             add2.UseVisualStyleBackColor = false;
@@ -58,26 +58,26 @@
             // 
             // favs
             // 
-            resources.ApplyResources(favs, "favs");
             favs.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(favs, "favs");
             favs.ForeColor = Color.NavajoWhite;
             favs.Name = "favs";
             favs.UseVisualStyleBackColor = false;
             favs.Click += favs_Click;
             // 
-            // back
+            // back5
             // 
-            resources.ApplyResources(back, "back");
-            back.BackColor = Color.Transparent;
-            back.ForeColor = Color.NavajoWhite;
-            back.Name = "back";
-            back.UseVisualStyleBackColor = false;
-            back.Click += back_Click;
+            back5.BackColor = Color.Transparent;
+            resources.ApplyResources(back5, "back5");
+            back5.ForeColor = Color.NavajoWhite;
+            back5.Name = "back5";
+            back5.UseVisualStyleBackColor = false;
+            back5.Click += back5_Click;
             // 
             // five
             // 
-            resources.ApplyResources(five, "five");
             five.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(five, "five");
             five.ForeColor = Color.NavajoWhite;
             five.Name = "five";
             five.UseVisualStyleBackColor = false;
@@ -85,8 +85,8 @@
             // 
             // four
             // 
-            resources.ApplyResources(four, "four");
             four.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(four, "four");
             four.ForeColor = Color.NavajoWhite;
             four.Name = "four";
             four.UseVisualStyleBackColor = false;
@@ -94,8 +94,8 @@
             // 
             // three
             // 
-            resources.ApplyResources(three, "three");
             three.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(three, "three");
             three.ForeColor = Color.NavajoWhite;
             three.Name = "three";
             three.UseVisualStyleBackColor = false;
@@ -103,8 +103,8 @@
             // 
             // two
             // 
-            resources.ApplyResources(two, "two");
             two.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(two, "two");
             two.ForeColor = Color.NavajoWhite;
             two.Name = "two";
             two.UseVisualStyleBackColor = false;
@@ -112,8 +112,8 @@
             // 
             // six
             // 
-            resources.ApplyResources(six, "six");
             six.BackColor = Color.FromArgb(136, 92, 64);
+            resources.ApplyResources(six, "six");
             six.ForeColor = Color.NavajoWhite;
             six.Name = "six";
             six.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             Controls.Add(four);
             Controls.Add(three);
             Controls.Add(two);
-            Controls.Add(back);
+            Controls.Add(back5);
             Controls.Add(favs);
             Controls.Add(add2);
             Controls.Add(collections);
@@ -144,7 +144,7 @@
         private Label collections;
         private Button add2;
         private Button favs;
-        private Button back;
+        private Button back5;
         private Button five;
         private Button four;
         private Button three;

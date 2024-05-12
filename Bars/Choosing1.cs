@@ -43,6 +43,8 @@ namespace Project2
                     var bars = context.Bars.Where(b => b.Type == "для выбора").ToList();
                     list.DataSource = bars;
                     logger.Info("Data from Database was loaded");
+                    var firstRow = context.authorization.FirstOrDefault();
+
                 }
                 catch (Exception ex)
                 {

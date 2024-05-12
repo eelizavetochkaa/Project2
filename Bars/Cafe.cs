@@ -1,32 +1,17 @@
-﻿using Bars;
-using Bars.Properties;
+﻿using Bars.Properties;
 using Project2;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
-
-using System;
-using System.Globalization;
-using System.Windows.Forms;
 using NLog;
+using System.Data.SQLite;
+using System.Windows.Forms;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Bars;
 
 namespace DZ
 {
     public partial class Cafe : Form
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
         public Cafe()
         {
             if (!String.IsNullOrEmpty(Settings.Default.Language))
@@ -39,12 +24,34 @@ namespace DZ
 
         public void start_Click(object sender, EventArgs e)
         {
-            var choose1Form = new Choosing1();
-            this.Hide();
-            choose1Form.ShowDialog();
-            this.Close();
-            logger.Info("The start button to open the next form was clicked");
+            using (var context = new CafesContext())
+            {
+                string login = loginBox.Text;
+                string password = passwordBox.Text;
 
+                var user = context.authorization.FirstOrDefault(u => u.login == login && u.password == password);
+
+                if (user != null)
+                {
+                    MessageBox.Show("Авторизация прошла успешно!");
+                    var choose1Form = new Choosing1();
+                    choose1Form.labelAc.Text = "Встроенный аккаунт";
+                    this.Hide();
+                    choose1Form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин или пароль!");
+                }
+            }
+        }
+        public void buttonVK_Click(object sender, EventArgs e)
+        {
+            var VKForm = new VK();
+            this.Hide();
+            VKForm.ShowDialog();
+            this.Close();
         }
         private void Cafe_Load(object sender, EventArgs e)
         {

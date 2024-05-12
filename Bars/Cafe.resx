@@ -126,10 +126,10 @@
     <value>Palatino Linotype, 30pt, style=Bold</value>
   </data>
   <data name="welcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 33</value>
+    <value>424, 25</value>
   </data>
   <data name="welcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>878, 67</value>
+    <value>701, 55</value>
   </data>
   <data name="welcome.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;welcome.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="description.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -156,10 +156,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="description.Location" type="System.Drawing.Point, System.Drawing">
-    <value>881, 150</value>
+    <value>771, 112</value>
   </data>
   <data name="description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>471, 230</value>
+    <value>366, 180</value>
   </data>
   <data name="description.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -181,22 +181,26 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;description.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="start.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 15pt</value>
   </data>
   <data name="start.Location" type="System.Drawing.Point, System.Drawing">
-    <value>626, 605</value>
+    <value>164, 430</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="start.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="start.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 56</value>
+    <value>128, 42</value>
   </data>
   <data name="start.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="start.Text" xml:space="preserve">
-    <value>Начать</value>
+    <value>Войти</value>
   </data>
   <data name="&gt;&gt;start.Name" xml:space="preserve">
     <value>start</value>
@@ -208,16 +212,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1246, 654</value>
+    <value>1090, 490</value>
+  </data>
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 31</value>
+    <value>133, 27</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -232,16 +239,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="change.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="change.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1246, 701</value>
+    <value>1090, 526</value>
+  </data>
+  <data name="change.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="change.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 37</value>
+    <value>132, 28</value>
   </data>
   <data name="change.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -259,13 +269,95 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;change.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="loginBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 9pt</value>
+  </data>
+  <data name="loginBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 354</value>
+  </data>
+  <data name="loginBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="loginBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="loginBox.Text" xml:space="preserve">
+    <value>
+</value>
+  </data>
+  <data name="&gt;&gt;loginBox.Name" xml:space="preserve">
+    <value>loginBox</value>
+  </data>
+  <data name="&gt;&gt;loginBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loginBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="passwordBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 9pt</value>
+  </data>
+  <data name="passwordBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 393</value>
+  </data>
+  <data name="passwordBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="passwordBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="passwordBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Name" xml:space="preserve">
+    <value>passwordBox</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonVK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 9pt</value>
+  </data>
+  <data name="buttonVK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 490</value>
+  </data>
+  <data name="buttonVK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 33</value>
+  </data>
+  <data name="buttonVK.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonVK.Text" xml:space="preserve">
+    <value>Войти с ВК</value>
+  </data>
+  <data name="&gt;&gt;buttonVK.Name" xml:space="preserve">
+    <value>buttonVK</value>
+  </data>
+  <data name="&gt;&gt;buttonVK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonVK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonVK.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2528,7 +2620,10 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1443, 750</value>
+    <value>1199, 562</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Cafe</value>

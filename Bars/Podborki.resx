@@ -122,10 +122,14 @@
     <value>Segoe UI Black, 25.2pt, style=Bold</value>
   </data>
   <data name="back3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 18</value>
+    <value>46, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="back3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="back3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 78</value>
+    <value>54, 58</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="back3.TabIndex" type="System.Int32, mscorlib">
@@ -144,16 +148,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;back3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="description2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="description2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>953, 353</value>
+    <value>834, 265</value>
   </data>
   <data name="description2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 296</value>
+    <value>382, 222</value>
   </data>
   <data name="description2.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -174,13 +178,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;description2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="photo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>953, 126</value>
+    <value>834, 94</value>
+  </data>
+  <data name="photo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="photo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 224</value>
+    <value>382, 168</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="photo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
@@ -199,7 +206,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;photo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -208,10 +215,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1070, 60</value>
+    <value>936, 45</value>
   </data>
   <data name="name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 46</value>
+    <value>133, 36</value>
   </data>
   <data name="name.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -229,16 +236,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;name.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="list3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 142</value>
+    <value>153, 106</value>
+  </data>
+  <data name="list3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="list3.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="list3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>701, 507</value>
+    <value>613, 380</value>
   </data>
   <data name="list3.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -253,7 +263,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;list3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="podborka.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -262,10 +272,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="podborka.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 72</value>
+    <value>309, 54</value>
   </data>
   <data name="podborka.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 46</value>
+    <value>137, 36</value>
   </data>
   <data name="podborka.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -283,16 +293,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;podborka.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="delete.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="delete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1087, 669</value>
+    <value>248, 512</value>
+  </data>
+  <data name="delete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="delete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="delete.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -310,13 +323,46 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;delete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 10.2pt</value>
+  </data>
+  <data name="mail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 512</value>
+  </data>
+  <data name="mail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="mail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 39</value>
+  </data>
+  <data name="mail.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="mail.Text" xml:space="preserve">
+    <value>Отправить на почту</value>
+  </data>
+  <data name="&gt;&gt;mail.Name" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="&gt;&gt;mail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mail.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1041,7 +1087,10 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1443, 750</value>
+    <value>1199, 562</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Podborki</value>

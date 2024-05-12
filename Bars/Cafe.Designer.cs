@@ -34,6 +34,9 @@
             start = new Button();
             comboBox1 = new ComboBox();
             change = new Button();
+            loginBox = new TextBox();
+            passwordBox = new TextBox();
+            buttonVK = new Button();
             SuspendLayout();
             // 
             // welcome
@@ -78,11 +81,36 @@
             change.UseVisualStyleBackColor = false;
             change.Click += button1_Click;
             // 
+            // loginBox
+            // 
+            loginBox.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(loginBox, "loginBox");
+            loginBox.Name = "loginBox";
+            // 
+            // passwordBox
+            // 
+            passwordBox.BackColor = Color.NavajoWhite;
+            resources.ApplyResources(passwordBox, "passwordBox");
+            passwordBox.ForeColor = Color.FromArgb(128, 64, 0);
+            passwordBox.Name = "passwordBox";
+            // 
+            // buttonVK
+            // 
+            buttonVK.BackColor = Color.CornflowerBlue;
+            resources.ApplyResources(buttonVK, "buttonVK");
+            buttonVK.ForeColor = Color.White;
+            buttonVK.Name = "buttonVK";
+            buttonVK.UseVisualStyleBackColor = false;
+            buttonVK.Click += buttonVK_Click;
+            // 
             // Cafe
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
+            Controls.Add(buttonVK);
+            Controls.Add(passwordBox);
+            Controls.Add(loginBox);
             Controls.Add(change);
             Controls.Add(comboBox1);
             Controls.Add(start);
@@ -103,5 +131,8 @@
         private Button start;
         private ComboBox comboBox1;
         private Button change;
+        private TextBox loginBox;
+        private TextBox passwordBox;
+        private Button buttonVK;
     }
 }

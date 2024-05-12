@@ -126,10 +126,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="choose1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 29</value>
+    <value>198, 22</value>
   </data>
   <data name="choose1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 92</value>
+    <value>347, 72</value>
   </data>
   <data name="choose1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -151,19 +151,23 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;choose1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="list.ColumnHeadersHeight" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
   <data name="list.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 144</value>
+    <value>92, 108</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="list.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="list.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>500, 0</value>
+    <value>438, 0</value>
   </data>
   <data name="list.Size" type="System.Drawing.Size, System.Drawing">
-    <value>729, 507</value>
+    <value>638, 380</value>
   </data>
   <data name="list.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -178,16 +182,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;list.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="show.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="show.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 676</value>
+    <value>92, 507</value>
+  </data>
+  <data name="show.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="show.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 52</value>
+    <value>206, 39</value>
   </data>
   <data name="show.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -205,16 +212,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;show.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="yours.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="yours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 676</value>
+    <value>312, 507</value>
+  </data>
+  <data name="yours.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="yours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 52</value>
+    <value>214, 39</value>
   </data>
   <data name="yours.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -232,16 +242,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yours.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="like.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 18pt, style=Bold</value>
   </data>
   <data name="like.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1297, 605</value>
+    <value>1135, 454</value>
+  </data>
+  <data name="like.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="like.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
+    <value>49, 34</value>
   </data>
   <data name="like.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -259,16 +272,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;like.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="dislike.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 18pt, style=Bold</value>
   </data>
   <data name="dislike.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1235, 605</value>
+    <value>1081, 454</value>
+  </data>
+  <data name="dislike.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="dislike.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 46</value>
+    <value>49, 34</value>
   </data>
   <data name="dislike.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -286,7 +302,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dislike.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="mark.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -295,10 +311,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="mark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 605</value>
+    <value>822, 454</value>
   </data>
   <data name="mark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 46</value>
+    <value>333, 36</value>
   </data>
   <data name="mark.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -316,7 +332,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mark.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="name.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -325,10 +341,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1060, 53</value>
+    <value>928, 40</value>
   </data>
   <data name="name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 46</value>
+    <value>133, 36</value>
   </data>
   <data name="name.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -346,17 +362,20 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;name.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="photo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="photo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 144</value>
+    <value>822, 108</value>
+  </data>
+  <data name="photo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="photo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 224</value>
+    <value>382, 168</value>
   </data>
   <data name="photo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -374,16 +393,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;photo.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="description2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="description2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 371</value>
+    <value>822, 278</value>
   </data>
   <data name="description2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 231</value>
+    <value>382, 173</value>
   </data>
   <data name="description2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -404,7 +423,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;description2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="addtofav.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -413,13 +432,16 @@
     <value>Palatino Linotype, 18pt</value>
   </data>
   <data name="addtofav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 676</value>
+    <value>822, 507</value>
+  </data>
+  <data name="addtofav.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="addtofav.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="addtofav.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 45</value>
+    <value>282, 36</value>
   </data>
   <data name="addtofav.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -437,7 +459,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;addtofav.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="back.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Black, 25.2pt, style=Bold</value>
@@ -445,8 +467,11 @@
   <data name="back.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 2</value>
   </data>
+  <data name="back.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="back.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 78</value>
+    <value>54, 58</value>
   </data>
   <data name="back.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -464,13 +489,40 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;back.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelAc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt</value>
+  </data>
+  <data name="labelAc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 50</value>
+  </data>
+  <data name="labelAc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="labelAc.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelAc.Name" xml:space="preserve">
+    <value>labelAc</value>
+  </data>
+  <data name="&gt;&gt;labelAc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAc.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1191,7 +1243,10 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1443, 750</value>
+    <value>1199, 562</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Choosing1</value>

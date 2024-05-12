@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Choosing1));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             choose1 = new Label();
             list = new DataGridView();
             show = new Button();
@@ -44,6 +44,7 @@
             description2 = new Label();
             addtofav = new CheckBox();
             back = new Button();
+            labelAc = new Label();
             ((System.ComponentModel.ISupportInitialize)list).BeginInit();
             ((System.ComponentModel.ISupportInitialize)photo).BeginInit();
             SuspendLayout();
@@ -59,35 +60,35 @@
             // 
             list.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list.BackgroundColor = Color.FromArgb(136, 92, 64);
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            dataGridViewCellStyle1.ForeColor = Color.Sienna;
-            dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
-            dataGridViewCellStyle1.SelectionForeColor = Color.Snow;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            list.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle4.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = Color.Sienna;
+            dataGridViewCellStyle4.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle4.SelectionForeColor = Color.Snow;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            list.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             resources.ApplyResources(list, "list");
             list.Cursor = Cursors.Hand;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle2.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            dataGridViewCellStyle2.ForeColor = Color.SaddleBrown;
-            dataGridViewCellStyle2.SelectionBackColor = Color.BurlyWood;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            list.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle5.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.SaddleBrown;
+            dataGridViewCellStyle5.SelectionBackColor = Color.BurlyWood;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
+            list.DefaultCellStyle = dataGridViewCellStyle5;
             list.GridColor = Color.Sienna;
             list.Name = "list";
             list.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle3.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            dataGridViewCellStyle3.ForeColor = Color.Sienna;
-            dataGridViewCellStyle3.SelectionBackColor = Color.Tan;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            list.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle6.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.Sienna;
+            dataGridViewCellStyle6.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            list.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             list.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             list.RowTemplate.ReadOnly = true;
             list.CellMouseDoubleClick += list_CellMouseDoubleClick_1;
@@ -177,10 +178,18 @@
             back.UseVisualStyleBackColor = false;
             back.Click += back_Click_1;
             // 
+            // labelAc
+            // 
+            resources.ApplyResources(labelAc, "labelAc");
+            labelAc.BackColor = Color.Transparent;
+            labelAc.ForeColor = Color.NavajoWhite;
+            labelAc.Name = "labelAc";
+            // 
             // Choosing1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(labelAc);
             Controls.Add(back);
             Controls.Add(addtofav);
             Controls.Add(description2);
@@ -216,5 +225,6 @@
         private Label description2;
         private CheckBox addtofav;
         private Button back;
+        public Label labelAc;
     }
 }

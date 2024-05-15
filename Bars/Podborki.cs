@@ -10,6 +10,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Mail;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Net;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Diagnostics;
 
 namespace Bars
 {
@@ -175,5 +180,131 @@ namespace Bars
             }
             logger.Info("The Podborki form was loaded");
         }
+
+        //private async void mail_Click(object sender, EventArgs e)
+        //{
+        //    if (!System.String.IsNullOrEmpty(EmaiBox.Text))
+        //    {
+        //        var titles = new List<string>();
+        //        foreach (DataGridViewRow row in list3.Rows)
+        //            titles.Add(row.Cells[1].Value.ToString());
+        //        MailAddress from = new MailAddress , "Ешь и пей");
+        //        MailAddress to = new MailAddress(EmaiBox.Text);
+        //        MailMessage m = new MailMessage(from, to);
+
+        //        m.Subject = "Подборка заведений";
+        //        m.Body = "Добрый день! Отправляем вам свежую подборку заведений";
+        //        try
+        //        {
+        //            // Метод File.WriteAllLines записывает все строки в файл
+        //            File.WriteAllLines("VishList.txt", titles);
+        //            Console.WriteLine($"Файл VishList.txt успешно создан.");
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Console.WriteLine($"Произошла ошибка при создании файла: {ex.Message}");
+        //        }
+        //        m.Attachments.Add(new Attachment(@"C:\Users\user\source\repos\Project2\Bars\bin\Debug\net7.0-windows\VishList.txt"));
+        //        SmtpClient smtp = new SmtpClient("smtp.gmail.com", 465);
+        //        smtp.UseDefaultCredentials = false;
+        //        smtp.Credentials = new NetworkCredential(");
+        //        smtp.EnableSsl = true;
+        //        smtp.Send(m);
+        //        Console.WriteLine("Письмо отправлено");
+        //    }
+        //}
+        private async void mail_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(EmaiBox.Text))
+            {
+                var titles = new List<string>();
+                foreach (DataGridViewRow row in list3.Rows)
+                {
+                    if (row.Cells[1].Value != null) // Проверка на null
+                    {
+                        titles.Add(row.Cells[1].Value.ToString());
+                    }
+                }
+
+                MailAddress from = new MailAddress("lafille5905@gmail.com", "Ешь и пей");
+                MailAddress to = new MailAddress(EmaiBox.Text);
+                MailMessage m = new MailMessage(from, to);
+
+                m.Subject = "Подборка заведений";
+                m.Body = "Добрый день! Отправляем вам свежую подборку заведений.";
+
+                try
+                {
+                    // Метод File.WriteAllLines записывает все строки в файл
+                    string filePath = "VishList.txt";
+                    File.WriteAllLines(filePath, titles);
+                    Console.WriteLine($"Файл {filePath} успешно создан.");
+
+                    // Добавляем файл в качестве вложения
+                    m.Attachments.Add(new Attachment(filePath));
+
+                    SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+                    smtp.UseDefaultCredentials = false;
+                    smtp.Credentials = new NetworkCredential("lafille5905@gmail.com", "fogel2019");
+                    smtp.EnableSsl = true;
+
+                    await smtp.SendMailAsync(m);
+                    MessageBox.Show("Письмо отправлено");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Произошла ошибка: {ex.Message}");
+                    MessageBox.Show($"Произошла ошибка: {ex.Message}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, введите адрес электронной почты.");
+            }
+        }
+        //private void mail_Click(object sender, EventArgs e)
+        //{
+        //    if (!string.IsNullOrEmpty(EmaiBox.Text))
+        //    {
+
+        //        var titles = new List<string>();
+        //        foreach (DataGridViewRow row in list3.Rows)
+        //        {
+        //            if (row.Cells[1].Value != null) // Проверка на null
+        //            {
+        //                titles.Add(row.Cells[1].Value.ToString());
+        //            }
+        //        }
+        //        MailAddress from = new MailAddress("lafille5905@xmail.ru", "Ешь и Пей");
+        //        MailAddress to = new MailAddress(EmaiBox.Text);
+        //        MailMessage m = new MailMessage(from, to);
+
+        //        m.Subject = "Подборка заведений";
+        //        m.Body = "Добрый день! Отправляем вам свежую подборку заведений";
+        //        m.IsBodyHtml = true;
+        //        try
+        //        {
+        //            string filePath = "VishList.txt";
+        //            File.WriteAllLines(filePath, titles);
+        //            Console.WriteLine($"Файл {filePath} успешно создан.");
+
+        //            m.Attachments.Add(new Attachment(filePath));              
+        //            SmtpClient smtp = new SmtpClient("smtp.xmail.ru", 587);
+        //            smtp.Credentials = new NetworkCredential("lafille5905@xmail.ru", "vRVYaKuPwzYqXfDBSN6W");
+        //            smtp.EnableSsl = true;
+        //            smtp.Send(m);
+        //            MessageBox.Show("Письмо отправлено");
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Console.WriteLine($"Произошла ошибка: {ex.Message}");
+        //            MessageBox.Show($"Произошла ошибка: {ex.Message}");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Пожалуйста, введите адрес электронной почты.");
+        //    }
+        //}           
     }
 }

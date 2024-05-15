@@ -113,7 +113,7 @@ namespace ProjectTwo
                 {
                     MessageBox.Show("Ошибка при подключении к базе данных: " + ex.Message);
                     logger.Info("The connection with database wasn't succesful");
-                    logger.Error( "The connection with database wan't established");
+                    logger.Error("The connection with database wan't established");
                 }
             }
         }

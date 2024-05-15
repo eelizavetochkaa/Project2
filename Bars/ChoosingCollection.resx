@@ -126,10 +126,10 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="choose2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 64</value>
+    <value>207, 51</value>
   </data>
   <data name="choose2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 46</value>
+    <value>266, 36</value>
   </data>
   <data name="choose2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -159,10 +159,10 @@
     <value>Palatino Linotype, 15pt</value>
   </data>
   <data name="tip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 660</value>
+    <value>155, 495</value>
   </data>
   <data name="tip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 99</value>
+    <value>347, 81</value>
   </data>
   <data name="tip.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -194,8 +194,12 @@
   <data name="back2.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 2</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="back2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="back2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 78</value>
+    <value>54, 58</value>
   </data>
   <data name="back2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -219,10 +223,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="favs1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 180</value>
+    <value>252, 128</value>
+  </data>
+  <data name="favs1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="favs1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="favs1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -246,10 +253,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="two1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 262</value>
+    <value>252, 196</value>
+  </data>
+  <data name="two1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="two1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="two1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -270,10 +280,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="three1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 345</value>
+    <value>252, 259</value>
+  </data>
+  <data name="three1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="three1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="three1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -294,10 +307,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="four1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 423</value>
+    <value>252, 317</value>
+  </data>
+  <data name="four1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="four1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="four1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -318,10 +334,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="five1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 499</value>
+    <value>252, 374</value>
+  </data>
+  <data name="five1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="five1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="five1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -342,10 +361,13 @@
     <value>Palatino Linotype, 10.2pt</value>
   </data>
   <data name="six1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 576</value>
+    <value>252, 432</value>
+  </data>
+  <data name="six1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="six1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 52</value>
+    <value>170, 39</value>
   </data>
   <data name="six1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -366,7 +388,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1128,7 +1150,10 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 860</value>
+    <value>700, 594</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ChoosingCollection</value>

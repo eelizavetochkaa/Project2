@@ -76,7 +76,7 @@ namespace ProjectTwo
             }
         }
 
-        
+
         private void UpdateButtonText()
         {
             using (var context = new CafesContext())
@@ -304,6 +304,6 @@ namespace ProjectTwo
             }
             logger.Info("User clicked to the six1 button");
         }
-        
+
     }
 }

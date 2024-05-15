@@ -20,8 +20,6 @@ namespace DZ
                 System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Settings.Default.Language);
             }
             InitializeComponent();
-            var table = new TableLayoutPanel();
-            table.RowStyles.Add(new RowStyle(SizeType.Percent, 50));
         }
 
         public void start_Click(object sender, EventArgs e)
@@ -88,21 +86,6 @@ namespace DZ
         {
             logger.Info($"Language changed to {comboBox1.SelectedItem}");
             Application.Restart();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void passwordBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

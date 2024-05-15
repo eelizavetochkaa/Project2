@@ -38,12 +38,11 @@
             // back
             // 
             back.BackColor = Color.Transparent;
-            back.Font = new Font("Segoe UI Black", 25.2F, FontStyle.Bold, GraphicsUnit.Point);
+            back.Font = new Font("Segoe UI Black", 25.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
             back.ForeColor = Color.NavajoWhite;
             back.Location = new Point(1, 0);
-            back.Margin = new Padding(3, 2, 3, 2);
             back.Name = "back";
-            back.Size = new Size(54, 58);
+            back.Size = new Size(62, 78);
             back.TabIndex = 13;
             back.Text = "⇐";
             back.UseVisualStyleBackColor = false;
@@ -51,39 +50,34 @@
             // 
             // EnterName
             // 
-            EnterName.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             EnterName.AutoSize = true;
             EnterName.BackColor = Color.NavajoWhite;
-            EnterName.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            EnterName.Font = new Font("Palatino Linotype", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 204);
             EnterName.ForeColor = Color.FromArgb(136, 92, 64);
-            EnterName.Location = new Point(163, 104);
+            EnterName.Location = new Point(157, 135);
             EnterName.Name = "EnterName";
-            EnterName.Size = new Size(360, 36);
+            EnterName.Size = new Size(464, 46);
             EnterName.TabIndex = 14;
             EnterName.Text = "Введите название подборки";
             // 
             // NameColl
             // 
-            NameColl.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             NameColl.BackColor = Color.FromArgb(136, 92, 64);
-            NameColl.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            NameColl.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
             NameColl.ForeColor = Color.NavajoWhite;
-            NameColl.Location = new Point(137, 182);
-            NameColl.Margin = new Padding(3, 2, 3, 2);
+            NameColl.Location = new Point(157, 242);
             NameColl.Name = "NameColl";
-            NameColl.Size = new Size(406, 32);
+            NameColl.Size = new Size(464, 39);
             NameColl.TabIndex = 15;
             // 
             // createcoll
             // 
-            createcoll.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             createcoll.BackColor = Color.NavajoWhite;
-            createcoll.Font = new Font("Palatino Linotype", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            createcoll.Font = new Font("Palatino Linotype", 15F, FontStyle.Regular, GraphicsUnit.Point, 204);
             createcoll.ForeColor = Color.FromArgb(136, 92, 64);
-            createcoll.Location = new Point(279, 493);
-            createcoll.Margin = new Padding(3, 2, 3, 2);
+            createcoll.Location = new Point(318, 714);
             createcoll.Name = "createcoll";
-            createcoll.Size = new Size(124, 40);
+            createcoll.Size = new Size(142, 77);
             createcoll.TabIndex = 16;
             createcoll.Text = "Создать подборку";
             createcoll.UseVisualStyleBackColor = false;
@@ -91,17 +85,16 @@
             // 
             // AddCollections
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(700, 562);
+            ClientSize = new Size(800, 861);
             Controls.Add(createcoll);
             Controls.Add(NameColl);
             Controls.Add(EnterName);
             Controls.Add(back);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "AddCollections";
             Load += AddCollections_Load;
             ResumeLayout(false);

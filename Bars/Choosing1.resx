@@ -248,7 +248,7 @@
     <value>Palatino Linotype, 18pt, style=Bold</value>
   </data>
   <data name="like.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1135, 454</value>
+    <value>1136, 455</value>
   </data>
   <data name="like.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -311,7 +311,7 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="mark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 454</value>
+    <value>802, 455</value>
   </data>
   <data name="mark.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 36</value>
@@ -369,7 +369,7 @@
     <value>Stretch</value>
   </data>
   <data name="photo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 108</value>
+    <value>802, 108</value>
   </data>
   <data name="photo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -399,7 +399,7 @@
     <value>Palatino Linotype, 19.800001pt</value>
   </data>
   <data name="description2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 278</value>
+    <value>802, 278</value>
   </data>
   <data name="description2.Size" type="System.Drawing.Size, System.Drawing">
     <value>382, 173</value>
@@ -432,7 +432,7 @@
     <value>Palatino Linotype, 18pt</value>
   </data>
   <data name="addtofav.Location" type="System.Drawing.Point, System.Drawing">
-    <value>822, 507</value>
+    <value>866, 507</value>
   </data>
   <data name="addtofav.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>

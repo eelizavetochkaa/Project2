@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Podborki));
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             back3 = new Button();
             description2 = new Label();
             photo = new PictureBox();
@@ -40,6 +40,7 @@
             podborka = new Label();
             delete = new Button();
             mail = new Button();
+            EmaiBox = new TextBox();
             ((System.ComponentModel.ISupportInitialize)photo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)list3).BeginInit();
             SuspendLayout();
@@ -78,31 +79,31 @@
             // 
             list3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             list3.BackgroundColor = Color.FromArgb(136, 92, 64);
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle4.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = Color.Sienna;
-            dataGridViewCellStyle4.SelectionBackColor = Color.Tan;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            list3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle1.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = Color.Sienna;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            list3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             list3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             list3.GridColor = Color.Tan;
             resources.ApplyResources(list3, "list3");
             list3.Name = "list3";
             list3.ReadOnly = true;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle5.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.Sienna;
-            dataGridViewCellStyle5.SelectionBackColor = Color.Tan;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            list3.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.BackColor = Color.NavajoWhite;
-            dataGridViewCellStyle6.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.SelectionBackColor = Color.Tan;
-            list3.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle2.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.Sienna;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Tan;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            list3.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.BackColor = Color.NavajoWhite;
+            dataGridViewCellStyle3.Font = new Font("Palatino Linotype", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.SelectionBackColor = Color.Tan;
+            list3.RowsDefaultCellStyle = dataGridViewCellStyle3;
             // 
             // podborka
             // 
@@ -127,11 +128,18 @@
             mail.ForeColor = Color.FromArgb(136, 92, 64);
             mail.Name = "mail";
             mail.UseVisualStyleBackColor = false;
+            mail.Click += mail_Click;
+            // 
+            // EmaiBox
+            // 
+            resources.ApplyResources(EmaiBox, "EmaiBox");
+            EmaiBox.Name = "EmaiBox";
             // 
             // Podborki
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(EmaiBox);
             Controls.Add(mail);
             Controls.Add(delete);
             Controls.Add(podborka);
@@ -159,5 +167,6 @@
         public DataGridView list3;
         private Button delete;
         private Button mail;
+        private TextBox EmaiBox;
     }
 }

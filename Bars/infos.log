@@ -1,0 +1,771 @@
+2024-05-04 20:04:11.9143 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-04 20:04:18.9358 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-04 20:10:49.3994 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-04 20:16:29.6373 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-05 12:24:28.5395 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 12:25:26.6348 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-05 12:25:26.7364 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-05 12:25:28.2216 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-05 12:25:29.7914 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-05 12:25:29.9154 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-05 12:25:29.9281 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-05 12:25:29.9281 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-05 12:25:32.3358 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-05 12:25:32.3358 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-05 12:25:32.3870 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-05 12:25:32.3932 | INFO | DZ.Cafe | The start button to open the next form was clicked
+2024-05-05 18:19:14.0185 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 18:19:38.4059 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-05 19:17:22.7682 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 19:20:28.2256 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 19:23:31.7392 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 19:28:40.3262 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 19:30:13.7511 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 19:32:50.6391 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:23:20.9002 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:26:47.0072 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:36:25.5543 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:44:35.2858 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:48:32.4735 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-05 20:48:46.4551 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-06 10:49:27.2799 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-06 10:51:42.9076 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-06 10:51:47.7477 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-06 10:51:47.8413 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-06 10:51:49.5782 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-06 10:51:49.5782 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-06 10:51:50.8194 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-06 10:51:50.8194 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-06 10:51:53.4918 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-06 11:18:18.9976 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-06 11:18:23.0657 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-06 11:18:23.2438 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-06 11:18:28.9779 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-06 11:32:17.7662 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-06 11:32:42.2095 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-06 11:32:42.3118 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-06 11:32:53.5455 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-07 15:32:27.0012 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-07 15:41:34.0469 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-07 15:42:08.4931 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-07 15:42:08.5918 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-07 15:42:13.5994 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-07 16:04:18.5784 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-07 16:04:48.7435 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-07 16:04:48.8416 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-07 16:04:55.0351 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:04:55.0351 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:00.0293 | WARN | Project2.Choosing1 | User tried to like the position but didn't choose the line
+2024-05-07 16:05:04.9674 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-07 16:05:05.1486 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-07 16:05:05.1486 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-07 16:05:07.0303 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:07.0303 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:08.4587 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:08.4587 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:09.5203 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:09.5203 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:10.8491 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:10.8491 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:12.6806 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:12.6806 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:16.7280 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-07 16:05:16.7426 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-07 16:05:16.7426 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-07 16:05:20.0511 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-07 16:05:20.0511 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-07 16:05:27.8796 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-07 16:05:27.9301 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-07 16:05:29.8800 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-07 16:05:29.8800 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-07 16:05:35.1258 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-07 16:05:36.7811 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-07 16:05:36.8895 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-07 16:05:36.9029 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-07 16:05:36.9029 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-07 16:05:38.4950 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-07 16:05:38.5549 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-07 16:05:39.7276 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-07 16:05:45.6686 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-07 16:05:45.7238 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-07 16:05:45.7238 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-07 16:05:45.7238 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-07 16:05:45.7339 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-07 16:05:45.7339 | INFO | ProjectTwo.YourRecomendations | User threw off all preferences and came back to the Choosing1 form
+2024-05-07 16:05:45.7339 | INFO | Project2.Choosing1 | User opened next YourRecomendations form and click to show button
+2024-05-07 16:05:45.7522 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-08 21:26:16.0655 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-08 21:27:35.7943 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-08 21:27:35.9571 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-08 21:27:42.3072 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-08 21:27:42.3072 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-08 21:27:45.6210 | WARN | Project2.Choosing1 | User tried to like the position but didn't choose the line
+2024-05-08 21:27:48.9899 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-08 21:27:49.1180 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-08 21:27:49.1180 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-08 21:27:51.5178 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-08 21:27:51.5178 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-08 21:28:09.0254 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-08 21:28:09.0342 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-08 21:28:09.0342 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-08 21:28:10.9830 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-08 21:28:10.9830 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-08 21:28:17.4337 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-08 21:28:17.4445 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-08 21:28:17.4445 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-08 21:28:25.0285 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-08 21:28:25.0285 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-08 21:28:26.3523 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-08 21:28:26.3523 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-08 21:28:30.9261 | WARN | ProjectTwo.YourRecomendations | The adding to favourites wasn't succesful
+2024-05-08 21:28:36.1967 | WARN | ProjectTwo.YourRecomendations | The adding to favourites wasn't succesful
+2024-05-08 21:28:39.8836 | INFO | ProjectTwo.YourRecomendations | User added the position to the favourites
+2024-05-08 21:28:43.2352 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-08 21:28:43.2908 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-08 21:28:44.3404 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-08 21:29:02.3293 | INFO | DZ.Cafe | Language changed to en-GB
+2024-05-08 21:29:02.5097 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-08 21:29:02.5097 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-08 21:29:02.5770 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-08 21:29:02.5770 | INFO | ProjectTwo.YourRecomendations | User came back to the Choosing1 form
+2024-05-08 21:29:02.5770 | INFO | Project2.Choosing1 | User opened next YourRecomendations form and click to show button
+2024-05-08 21:29:03.4548 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-08 21:29:07.1603 | INFO | DZ.Cafe | Language changed to ru-RU
+2024-05-08 21:29:07.2019 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-08 21:29:08.5485 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-08 21:29:13.6997 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-08 21:35:21.2149 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-08 21:35:48.8197 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-08 21:35:48.9113 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-08 21:36:38.5218 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-09 18:22:42.9727 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-09 18:23:23.7496 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-09 18:23:23.8763 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-09 18:23:26.1923 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-09 18:23:26.1923 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-09 18:23:31.6941 | WARN | Project2.Choosing1 | User tried to like the position but didn't choose the line
+2024-05-09 18:23:35.1237 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-09 18:23:35.1617 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-09 18:23:35.1617 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-09 18:23:36.5753 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-09 18:23:36.5753 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-09 18:23:41.5905 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-09 18:23:41.5905 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-09 18:23:41.5905 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-09 18:23:43.5461 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-09 18:23:43.5461 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-09 18:23:47.5429 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-09 18:23:47.6434 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-09 18:23:47.6434 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-09 18:23:49.3823 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-09 18:23:49.3977 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-09 18:23:49.3977 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-09 18:23:52.0426 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-09 18:23:52.0426 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-09 18:23:53.8515 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-09 18:23:53.8515 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-09 18:23:57.2798 | INFO | ProjectTwo.YourRecomendations | User added the position to the favourites
+2024-05-09 18:23:58.9692 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-09 18:23:58.9692 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-09 18:24:03.5520 | WARN | ProjectTwo.YourRecomendations | The adding to favourites wasn't succesful
+2024-05-09 18:24:08.0544 | INFO | ProjectTwo.YourRecomendations | User added the position to the favourites
+2024-05-09 18:24:09.9003 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-09 18:24:09.9725 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-09 18:24:11.9227 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-09 18:24:12.9353 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-09 18:24:13.0540 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-09 18:24:13.0643 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-09 18:24:13.0643 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-09 18:24:16.3318 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-09 18:24:16.4313 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-09 18:24:17.7479 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-09 18:24:19.4063 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-09 18:24:19.5257 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-09 18:24:19.5257 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-09 18:24:19.5257 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-09 18:24:19.5340 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-09 18:24:19.5340 | INFO | ProjectTwo.YourRecomendations | User came back to the Choosing1 form
+2024-05-09 18:24:19.5340 | INFO | Project2.Choosing1 | User opened next YourRecomendations form and click to show button
+2024-05-09 18:24:19.8310 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 13:43:26.0623 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 13:43:33.9434 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 13:52:44.6124 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 13:59:38.5090 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 14:06:44.0959 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 14:07:40.3719 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-11 14:07:40.5313 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-11 14:07:44.0463 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 14:07:45.1913 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 14:07:45.2469 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-11 14:07:45.2596 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 14:11:48.0087 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 14:12:13.0660 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 15:23:23.9788 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 15:23:43.2487 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 15:24:30.2643 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 16:09:35.7832 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 16:10:28.0048 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-11 16:10:28.1078 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-11 16:10:30.0732 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 16:11:56.6827 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-11 16:11:56.7519 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-11 16:12:00.8777 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-11 16:12:00.8777 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-11 16:12:17.0376 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-11 16:12:17.0785 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-11 16:12:17.0785 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-11 16:12:18.2423 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-11 16:12:18.2423 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-11 16:12:22.9088 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-11 16:12:22.9906 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-11 16:12:22.9906 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-11 16:12:24.2562 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-11 16:12:24.2681 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-11 16:12:24.2681 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-11 16:12:31.6741 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-11 16:12:31.6741 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-11 16:12:36.5208 | INFO | ProjectTwo.YourRecomendations | User added the position to the favourites
+2024-05-11 16:12:37.9738 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-11 16:12:38.0175 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-11 16:12:39.2052 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-11 16:12:40.2699 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-11 16:12:40.3793 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-11 16:12:40.3945 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-11 16:12:40.3945 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-11 16:12:43.1357 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-11 16:12:43.1859 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-11 16:12:47.3893 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-11 16:13:04.7705 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 16:13:04.8192 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-11 16:13:04.8192 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-11 16:13:04.8286 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-11 16:13:04.8286 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-11 16:13:04.8286 | INFO | ProjectTwo.YourRecomendations | User came back to the Choosing1 form
+2024-05-11 16:13:04.8286 | INFO | Project2.Choosing1 | User opened next YourRecomendations form and click to show button
+2024-05-11 16:13:04.8498 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-11 16:13:04.8498 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-11 16:13:04.8605 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-12 17:07:30.6029 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-12 17:08:04.3825 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-12 17:24:53.1342 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-12 17:25:56.6717 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-12 17:25:56.7855 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-12 17:26:07.2288 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-13 00:12:58.9924 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-13 00:16:00.8262 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-13 00:16:00.9790 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-13 00:16:57.2638 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-13 00:33:46.8743 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-13 00:34:18.0583 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-13 00:34:18.2031 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-13 00:34:31.4032 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-13 00:34:31.4032 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-13 00:34:43.3683 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-13 20:08:03.2002 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-13 20:08:58.5662 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-13 20:08:58.6810 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-13 20:11:14.9017 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-13 20:11:14.9017 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-13 20:11:18.3504 | INFO | Project2.Choosing1 | User add the position to the favourites
+2024-05-13 20:11:19.3412 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-13 20:11:20.1634 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-13 20:11:20.3065 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-13 20:11:20.3195 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-13 20:11:20.3195 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-13 20:11:40.7463 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-13 20:11:40.7463 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-13 20:11:40.8018 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-13 21:08:41.4466 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-13 21:09:29.8542 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-13 21:09:30.0067 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-13 21:10:53.1912 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 20:53:26.2433 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 20:54:06.0068 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 20:54:06.1308 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 20:54:15.4709 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 20:54:19.2701 | INFO | ProjectTwo.AddCollections | AddCollections form was loaded
+2024-05-14 20:54:28.5931 | INFO | ProjectTwo.AddCollections | New matching was added
+2024-05-14 20:54:28.6114 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 20:54:28.6580 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 20:54:30.4999 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 20:54:30.5598 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 20:54:43.6809 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-14 20:54:43.7090 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-14 20:54:43.7090 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-14 20:54:45.7028 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-14 20:54:45.7030 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-14 20:54:49.2178 | INFO | Project2.Choosing1 | User saw message about his mark
+2024-05-14 20:54:49.2178 | INFO | Project2.Choosing1 | The information in database was updated
+2024-05-14 20:54:49.2178 | INFO | Project2.Choosing1 | User liked the chosen position
+2024-05-14 20:54:50.2091 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-14 20:54:50.2242 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-14 20:54:50.2242 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-14 20:54:54.5862 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-14 20:54:54.5862 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-14 20:54:59.1613 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-14 20:54:59.1613 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-14 20:55:03.3990 | INFO | ProjectTwo.ChoosingCollection | The label was renamed
+2024-05-14 20:55:03.4372 | INFO | ProjectTwo.ChoosingCollection | The Choosing1 form was loaded
+2024-05-14 20:55:05.5372 | INFO | ProjectTwo.ChoosingCollection | User added the position to the first matching
+2024-05-14 20:55:05.5372 | INFO | ProjectTwo.ChoosingCollection | User clicked to the two1 button
+2024-05-14 20:55:06.6515 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-14 20:55:06.6623 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-14 20:55:06.6623 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-14 20:55:07.9297 | INFO | ProjectTwo.YourRecomendations | The image was loaded
+2024-05-14 20:55:07.9297 | INFO | ProjectTwo.YourRecomendations | The information about chosen position was shown
+2024-05-14 20:55:10.0854 | INFO | ProjectTwo.ChoosingCollection | The label was renamed
+2024-05-14 20:55:10.1249 | INFO | ProjectTwo.ChoosingCollection | The Choosing1 form was loaded
+2024-05-14 20:55:12.2298 | INFO | ProjectTwo.ChoosingCollection | User added the position to the first matching
+2024-05-14 20:55:12.2298 | INFO | ProjectTwo.ChoosingCollection | User clicked to the two1 button
+2024-05-14 20:55:15.5004 | INFO | ProjectTwo.YourRecomendations | The connection with database was succesful
+2024-05-14 20:55:15.5115 | INFO | ProjectTwo.YourRecomendations | User tried to load this form
+2024-05-14 20:55:15.5115 | INFO | ProjectTwo.YourRecomendations | The YourRecomendation form was loaded
+2024-05-14 20:55:17.0725 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 20:55:17.1348 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 20:55:19.9472 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 20:55:19.9858 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 20:55:22.2719 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 20:55:22.4124 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 20:55:22.4232 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 20:55:22.4232 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 20:55:28.8709 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 20:55:28.9273 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 20:55:32.6533 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 20:55:34.4690 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 20:55:34.5335 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-14 20:55:34.5335 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-14 20:55:34.5335 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-14 20:55:34.5335 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-14 20:55:34.5335 | INFO | ProjectTwo.YourRecomendations | User came back to the Choosing1 form
+2024-05-14 20:55:34.5335 | INFO | ProjectTwo.ChoosingCollection | User clicked back button and came back to YourRecomendation form
+2024-05-14 20:55:34.5335 | INFO | ProjectTwo.YourRecomendations | User tried to add position to the matching
+2024-05-14 20:55:34.5498 | INFO | ProjectTwo.ChoosingCollection | User clicked back button and came back to YourRecomendation form
+2024-05-14 20:55:34.5498 | INFO | ProjectTwo.YourRecomendations | User tried to add position to the matching
+2024-05-14 20:55:34.5498 | INFO | Project2.Choosing1 | User opened next YourRecomendations form and click to show button
+2024-05-14 20:55:34.5498 | INFO | ProjectTwo.YourCollections | User clicked back button and came back to Choosing1 form
+2024-05-14 20:55:34.5498 | INFO | ProjectTwo.YourCollections | User clicked add2 button and AddCollections form was opened
+2024-05-14 20:55:34.5498 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-14 20:55:34.5757 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 21:50:38.9866 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 21:51:32.1276 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 21:51:32.2379 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 21:51:35.1502 | INFO | Project2.Choosing1 | The image was loaded
+2024-05-14 21:51:35.1502 | INFO | Project2.Choosing1 | The information about chosen positions was shown
+2024-05-14 21:51:36.9628 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 21:51:37.0194 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 21:51:46.3413 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 21:51:46.4951 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 21:51:46.5078 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 21:51:46.5078 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:22:13.1847 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:23:57.0338 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:23:57.1162 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:24:02.6742 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:24:02.7316 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:24:05.6734 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:24:05.8262 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:24:05.8408 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:24:05.8408 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:25:04.6908 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:25:20.5936 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:25:20.6893 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:25:21.7513 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:25:21.8085 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:25:22.7173 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:25:22.8784 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:25:22.8784 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:25:22.8784 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:31:32.9031 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:31:56.7547 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:32:35.1783 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:32:35.2849 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:32:36.7363 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:32:36.8072 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:32:37.9006 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:32:38.0418 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:32:38.0522 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:32:38.0522 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:35:53.1791 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:36:23.4335 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:36:23.5366 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:36:25.1451 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:36:25.2084 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:36:25.9991 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:36:26.1531 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:36:26.1685 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:36:26.1685 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:40:43.8399 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:41:40.6181 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:41:42.3724 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 22:42:07.1485 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:43:32.1871 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:44:32.8266 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 22:44:43.0915 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:45:50.0538 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:45:50.1521 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:45:51.2268 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:45:51.2872 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:45:52.2398 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:45:52.3758 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:45:52.3758 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:45:52.3758 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:47:29.7553 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:49:17.3389 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:49:19.6340 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 22:49:34.1327 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:50:17.1230 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:50:17.2234 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:50:18.4483 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:50:18.5123 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:50:19.4876 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:50:19.6311 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:50:19.6441 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:50:19.6441 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:51:36.9211 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:52:04.7100 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:52:04.8195 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:52:06.5099 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:52:06.5723 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:52:08.4469 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:52:08.6131 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:52:08.6131 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:52:08.6131 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:54:15.0226 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:54:24.3043 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:54:34.4025 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:54:34.5466 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:54:35.2997 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:54:35.3622 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:54:36.5809 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:54:36.7402 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:54:36.7552 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:54:36.7552 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:55:20.4738 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:56:14.2696 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:56:14.3827 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:56:15.8789 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:56:15.9519 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:56:17.2414 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:56:17.3975 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:56:17.3975 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:56:17.3975 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 22:58:38.2421 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 22:58:49.5277 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 22:58:49.6417 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 22:58:50.9730 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 22:58:51.0335 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 22:58:52.2216 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:58:52.3825 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 22:58:52.4043 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 22:58:52.4043 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:00:47.2079 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:02:00.2951 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:02:17.0206 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:02:17.1276 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:02:18.6326 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:02:18.7051 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:02:19.8308 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:02:19.9868 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:02:20.0004 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:02:20.0004 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:03:16.1449 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:03:25.6257 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:03:25.7587 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:03:26.4864 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:03:26.5489 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:03:27.7070 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:03:27.8502 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:03:27.8638 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:03:27.8638 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:04:12.8740 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:04:28.8085 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:04:38.7194 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:04:38.8362 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:04:40.0900 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:04:40.1672 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:04:40.9003 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:04:41.1092 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:04:41.1290 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:04:41.1290 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:09:50.1888 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:10:13.5861 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:10:36.3297 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:10:36.4136 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:10:37.2520 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:10:37.3023 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:10:38.3066 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:10:38.4318 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:10:38.4438 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:10:38.4438 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:12:27.1868 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:13:39.2283 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:13:39.3445 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:13:40.0453 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:13:40.0957 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:13:40.9529 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:13:41.1302 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:13:41.1503 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:13:41.1503 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:15:58.4212 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:16:33.3153 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-14 23:16:33.4298 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-14 23:16:34.4951 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-14 23:16:34.5560 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-14 23:16:35.8323 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:16:35.9800 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-14 23:16:35.9922 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-14 23:16:35.9922 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-14 23:52:35.5296 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:52:59.8423 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 23:53:42.6715 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-14 23:54:01.0532 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-14 23:57:58.3446 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:03:12.7150 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:05:41.1494 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:06:40.4074 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:07:19.5788 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:07:32.3322 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:08:48.4014 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:09:38.1198 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:29:23.1797 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:29:49.1675 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:42:51.2557 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:43:47.7308 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:50:48.5439 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:50:53.0215 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:51:12.0832 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:51:16.4863 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:52:00.1256 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:52:14.3108 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 00:53:12.1961 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 00:53:39.7762 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:00:31.1970 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:01:47.7604 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 01:01:47.9008 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 01:02:05.5312 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 01:02:05.5847 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 01:02:09.9901 | INFO | ProjectTwo.AddCollections | AddCollections form was loaded
+2024-05-15 01:02:26.9245 | INFO | ProjectTwo.YourCollections | User clicked add2 button and AddCollections form was opened
+2024-05-15 01:02:26.9245 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 01:02:26.9781 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:09:53.5274 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:10:00.8423 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:11:07.6480 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:11:45.7267 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:13:28.2437 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:13:41.6459 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:14:42.4862 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:14:56.9119 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 01:25:47.2677 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 01:26:43.1110 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 17:57:42.7946 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 17:58:01.4719 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 17:59:31.7862 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 17:59:47.2788 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:00:47.6486 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:01:00.5372 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:04:04.0673 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:04:22.5185 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:05:05.9352 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:05:12.5264 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:07:59.9631 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:08:08.9342 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:09:20.0543 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:09:33.3824 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:10:04.9434 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:11:35.3417 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:13:02.1912 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 18:13:23.6555 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 18:22:31.6940 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 19:58:25.1069 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 19:58:41.1153 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:17:03.9524 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:22:34.2658 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:22:52.1611 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:23:19.2532 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 21:23:19.3343 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 21:24:21.8250 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:24:43.0113 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 21:24:43.1153 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 21:24:44.9658 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 21:24:45.0142 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 21:24:47.5656 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:24:47.6913 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:24:47.7008 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 21:24:47.7008 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 21:41:33.3207 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:42:02.8358 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 21:42:02.9897 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 21:42:07.6893 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 21:42:07.7458 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 21:42:08.9276 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:42:09.0807 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:42:09.1083 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 21:42:09.1083 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 21:43:05.5334 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 21:43:05.5391 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 21:43:05.5873 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:44:09.7855 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:44:30.2379 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 21:44:30.3511 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 21:44:58.9621 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 21:44:59.0226 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 21:44:59.9663 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:45:00.1348 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 21:45:00.1523 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 21:45:00.1523 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 21:45:14.4176 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 21:45:14.4176 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 21:45:14.4474 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:52:18.2257 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:53:07.9122 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:53:16.3545 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:53:26.0271 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:54:18.9511 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:57:06.7892 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:57:20.4175 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:57:29.7651 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 21:58:07.8459 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 21:58:55.6613 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:03:50.5628 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 22:05:49.0531 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:06:29.6211 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:06:29.7746 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:06:33.1005 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:06:33.1557 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:06:34.1747 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:06:34.3300 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:06:34.3463 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:06:34.3463 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:16:14.0341 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:16:42.0613 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:16:42.1906 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:16:44.1038 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:16:44.1739 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:16:45.2926 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:16:45.4340 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:16:45.4459 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:16:45.4459 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:20:34.0292 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:21:19.9414 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:21:20.0443 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:21:21.7586 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:21:21.8163 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:21:23.0869 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:21:23.2249 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:21:23.2390 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:21:23.2390 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:21:33.7842 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 22:21:33.7868 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 22:21:33.8162 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 22:24:27.7819 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:40:44.8286 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:41:15.0897 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:41:15.1840 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:41:16.9960 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:41:17.0414 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:41:18.2018 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:18.3456 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:18.3630 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:41:18.3630 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:41:20.9565 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:41:21.0100 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:41:27.6036 | WARN | Project2.Choosing1 | User tried to like the position but didn't choose the line
+2024-05-15 22:41:31.0000 | INFO | Project2.Choosing1 | User add the position to the favourites
+2024-05-15 22:41:32.6236 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:41:32.6499 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:41:33.5053 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:33.5930 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:33.6056 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:41:33.6056 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:41:34.8439 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:41:34.8961 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:41:36.7462 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:41:53.1133 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:41:53.1568 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:41:57.5060 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:41:57.5403 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:41:58.3563 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:58.4531 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:41:58.4647 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:41:58.4647 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:42:44.9605 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 22:42:44.9605 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 22:42:45.0249 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 22:42:45.0249 | INFO | Project2.Choosing1 | User opened last Cafe form and click to back button
+2024-05-15 22:42:45.0249 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-15 22:42:45.0249 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:42:45.0249 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 22:42:45.0399 | INFO | Bars.Podborki | User opened last Choosing1 form and clicked to back button
+2024-05-15 22:42:45.0399 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 22:42:45.0399 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 22:42:45.0583 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 22:46:07.9353 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:46:51.5977 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:46:51.7355 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:46:53.1132 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:46:53.1795 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:46:53.9495 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:46:54.0858 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:46:54.0981 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:46:54.0981 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:51:16.0064 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 22:51:48.7705 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 22:51:48.9396 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 22:51:50.6733 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 22:51:50.7351 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 22:51:51.5943 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:51:51.7873 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 22:51:51.8055 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 22:51:51.8055 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 22:53:29.9424 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 22:53:29.9424 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 22:53:29.9684 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 23:35:50.6706 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 23:36:36.7412 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 23:36:36.8340 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 23:37:12.4920 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 23:37:38.4778 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 23:37:38.5901 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 23:37:39.7899 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 23:37:39.8612 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 23:37:40.9728 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:37:41.1558 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:37:41.1670 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 23:37:41.1670 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 23:37:46.9590 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 23:37:46.9590 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 23:37:47.0081 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 23:41:07.3232 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 23:41:49.4889 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 23:41:49.5871 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 23:42:15.0472 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 23:42:15.1124 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 23:42:16.0818 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:42:16.2329 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:42:16.2444 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 23:42:16.2444 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 23:43:08.2479 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 23:43:39.6299 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 23:43:39.7622 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 23:43:40.6923 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 23:43:40.7772 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 23:43:42.1824 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:43:42.3405 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:43:42.3598 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 23:43:42.3598 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 23:43:47.6919 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 23:43:47.6919 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 23:43:47.7536 | INFO | DZ.Cafe | The Cafe form was closed
+2024-05-15 23:46:37.9965 | INFO | DZ.Cafe | The Cafe form was opened
+2024-05-15 23:47:15.7512 | INFO | Project2.Choosing1 | Data from Database was loaded
+2024-05-15 23:47:15.8755 | INFO | Project2.Choosing1 | The Choosing1 form was loaded
+2024-05-15 23:47:17.0738 | INFO | ProjectTwo.YourCollections | User clicked favs button and Podborki form was opened
+2024-05-15 23:47:17.1416 | INFO | ProjectTwo.YourCollections | The YourCollections form was loaded
+2024-05-15 23:47:17.9257 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:47:18.0987 | INFO | Bars.Podborki | The informaton was loaded from database
+2024-05-15 23:47:18.1102 | INFO | Bars.Podborki | User tried to load Podborki form
+2024-05-15 23:47:18.1102 | INFO | Bars.Podborki | The Podborki form was loaded
+2024-05-15 23:47:27.9297 | INFO | ProjectTwo.YourCollections | User clicked two button and Podborki form was opened
+2024-05-15 23:47:27.9297 | INFO | Project2.Choosing1 | User opened next YourCollections form and click to yours button
+2024-05-15 23:47:27.9541 | INFO | DZ.Cafe | The Cafe form was closed
